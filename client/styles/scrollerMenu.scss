@@ -1,0 +1,135 @@
+
+.scroller-container{
+    display: grid;
+    // flex-direction: row;
+    gap: 8px;
+    grid-auto-flow: column;
+    grid-auto-columns: 45%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    margin: 20px 70px;
+    // padding: 10px;
+    // gap: var(--size-3)
+    // flex-wrap: nowrap;
+    // height: 300px;
+    // overflow-x: auto;
+    // width: auto;
+    // position: absolute;
+    // top: 50%; left: 50%;
+    // transform: translate(-50%, -50%);
+    
+    // width: 400px;
+    // background: #444;
+    
+    // display: flex;
+    // overflow: auto;
+  }
+  
+  .scroller-item-1{
+    
+    padding: 130px 140px;
+    margin: 5px;
+    background-color: rgb(120, 120, 120);
+    border-radius: 5px;
+    background-image: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .scroller-item-2{
+    
+    padding: 130px 100px;
+    background-color: rgb(120, 120, 120);
+    border-radius: 5px;
+    background-image: url(https://i.natgeofe.com/n/8022bf25-d5ef-48c1-b460-dbac1448e122/09-9226610_uploadsmember665562yourshot-665562-9226610jpg_igdjhxksrjifxjzu4rgbsw37bhp3eflutfvvbpyjwjhzlmh4iziq_3000x2000.jpg?w=636&h=424);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    
+  }
+  
+  .scroller-item-3{
+    
+    padding: 130px 100px;
+    background-color: rgb(120, 120, 120);
+    border-radius: 5px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/59ef2d3c9f8dce981401a30d/1592002341643-UCT10ZFLQ5GCJU8L1OVY/colorful+landscapes.jpg?format=1000w);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+  }
+  
+  .scroller-item-4{
+    
+    padding: 130px 100px;
+    background-color: rgb(120, 120, 120);
+    border-radius: 5px;
+    background-image: url(https://www.amateurphotographer.co.uk/wp-content/uploads/2022/03/Landscape-South-Island-New-Zealand-820x500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+  }
+  
+  .scroller-item-5{
+    
+    padding: 130px 100px;
+    background-color: rgb(120, 120, 120);
+    border-radius: 5px;
+    background-image: url(http://llandscapes-10674.kxcdn.com/wp-content/uploads/2019/07/lighting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+  }
+  
+  .scroller-item-6{
+    
+    padding: 130px 100px;
+    background-color: rgb(120, 120, 120);
+    border-radius: 5px;
+    background-image: url(https://media.istockphoto.com/photos/alberta-wilderness-near-banff-picture-id583809524?b=1&k=20&m=583809524&s=612x612&w=0&h=ZH0lrJI2ypyxvWQRtpwYcBFZoLLI4XdHWX5xP3JKkKQ=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+  }
+  
+  .snap{
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 10px;
+  }
+  
+  .snap > * {
+    scroll-snap-align: start;
+  }
+
+.button-prev{
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 30px;
+  top: 60%;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, .1);
+  margin-left: 8px;
+
+}
+
+.button-next{
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 30px;
+  top: 60%;
+  cursor: pointer;
+  right: 0.8rem;
+}
+
+.button-next:hover,
+.button-prev:hover{
+  background-color: rgb(0, 0, 0, .2)
+}
+
+.button-next:focus,
+.button-prev:focus{
+  outline: 1px solid black;
+}
+ 

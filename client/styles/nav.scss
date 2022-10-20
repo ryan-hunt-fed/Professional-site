@@ -1,0 +1,54 @@
+
+.navbar{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 25px;
+    font-size: 24px;
+    padding: 20px 90px;
+    background-color: rgb(237, 236, 247);
+    opacity: 75%;
+    transition: opacity .3s ease-in-out;
+  
+    & a {
+      text-decoration: none;
+      color: black
+    }
+  
+    & a:hover{
+      color:rgb(169, 219, 234);
+    }
+  }
+
+  .navbar:hover{
+    opacity: 100%;
+    transition: opacity .3s ease-in-out;
+    animation: bg 30s infinite
+  }
+
+  @keyframes bg{
+    0%, 100% { background-color: rgb(237, 236, 247);}
+    25% {background-color: rgb(166, 186, 199);}
+    50% {background-color: rgb(166, 199, 179);}
+    75% {background-color: rgb(191, 199, 166);}
+  }
+  
+  .navbar-icons{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-left: 600px;
+  }
+  
+  .icons{
+    width: 30px;
+  }
+
+  .grow-icon { 
+    transition: all .3s ease-in-out; 
+    }
+    
+    .grow-icon:hover { 
+    transform: scale(1.5); 
+    }

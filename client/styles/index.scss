@@ -1,10 +1,56 @@
+@import "./scrollerMenu.scss";
+@import "./landingPage.scss";
+@import "./scrollbars.scss";
+@import "./nav.scss";
+@import "./landingPage.scss";
+
+
 body {
-  position: absolute;
+  // position: absolute;
   top: 0;
   left: 0;
   margin: 0;
-  padding: 20px;
+  // padding: 20px;
   font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(64, 72, 74);
+  color: white;
+
+  & p{
+    padding: 10px;
+    color:white;
+  }
+
+  & h3 {
+    text-align: center;
+    // padding: 50px;
+    font-size: 28px;
+    color:white;
+  }
+
+  & a {
+    text-decoration: none;
+    color: white
+    
+  }
 }
+
+.title{
+  text-align: center;
+}
+
+.main-header{
+  background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/01/dungeons-and-dragons-social.jpg);
+  padding: 60px;
+  background-color: black;
+}
+
+
+.grow { 
+  transition: all .3s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.02); 
+  }
 
 
