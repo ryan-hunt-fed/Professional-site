@@ -1,17 +1,21 @@
-.name-title{
-    font-size: 48px;
+.header{
+    // font-size: 48px;
     margin-top: 50px;
-    // margin-left: 70px;
+    margin-left: 70px;
     animation: fadeIn 2s, moveInLeft 1s ;
-    text-align: center;
+    // text-align: center;
+    & h1{
+        font-size: 48px;
+    }
 }
 
 .intro-text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: 0px 60px;
+    justify-content: flex-start;
+    // text-align: center;
+    margin: 0px 90px;
+    margin-right: 450px;
     animation: fadeIn 2s, moveInLeft 1s ;
     // width: 300px;
    

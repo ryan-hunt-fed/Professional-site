@@ -1,18 +1,28 @@
 .portfolio-content{
     margin: 15px;
+    margin-left: 50px;
 }
 
 .portfolio-title{
-    margin: 20px;
+    // margin: 20px;
+    margin-left: 20px;
     font-size: 36px;
 }
 
+.portfolio-standard-header{
+    margin-left: 20px;
+}
 
+.portfolio-standard-text{
+    margin-left: 40px;
+    margin-right: 420px;
+}
 
 .web-project-container{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-left: 40px;
 
 }
 
@@ -25,10 +35,11 @@
     border-radius: 20px;
     width: 200px;
     height: 250px;
-    padding: 10px;
+    padding: 10px 15px;
 
     & img{
         width: 200px;
+        border-radius: 5px;
     }
 }
 
@@ -37,6 +48,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-left: 40px;
 
 }
 
@@ -49,9 +61,10 @@
     border-radius: 20px;
     width: 200px;
     height: 250px;
-    padding: 10px;
+    padding: 10px 15px;
 
     & img{
         width: 200px;
+        border-radius: 5px;
     }
 }

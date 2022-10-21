@@ -8,13 +8,18 @@
 @import "./blog.scss";
 
 
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Righteous&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Quicksand:wght@400;500&family=Righteous&family=Roboto+Condensed&display=swap');
+
 body {
   top: 0;
   left: 0;
   margin: 0;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px 'Quicksand', sans-serif;
   background-color: rgb(64, 72, 74);
   color: white;
+  margin-bottom: 60px;
 
   & p{
     // padding: 10px;
@@ -56,4 +61,14 @@ body {
 @keyframes moveInLeft {
   0%{transform: translateX(-100px);}
   100%{transform: translateX(0)}
+}
+
+.picture-content{
+  margin-left: 70px;
+}
+
+.picture-title{
+  margin: 20px;
+  margin-left: 65px;
+  font-size: 48px;
 }

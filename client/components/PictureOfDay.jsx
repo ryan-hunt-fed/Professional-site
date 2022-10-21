@@ -18,8 +18,9 @@ function PictureOfDay() {
 
   return (
     <>
-      <div className='load-animation'>
-        <div>
+      <div className='load-animation '>
+        <h1 className='picture-title'>Picture Of The Day</h1>
+        <div className='picture-content'>
           <p>Using some external Apis here is a range of images for today</p>
         </div>
         <div >

@@ -1,5 +1,6 @@
 .about-title{
     margin: 20px;
+    margin-left: 65px;
     font-size: 36px;
 }
 
@@ -7,16 +8,21 @@
 .about-content{
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
+}
+
+.about-standard-text{
+    margin-left: 20px;
+    margin-right: 540px;
 }
 
 
-
-
 .about-profile-image{
-    display: flex;
-    justify-content: flex-end;
-    margin: 40px;
-    flex-wrap: wrap;
+    position: absolute;
+    left: 880px;
+    top:210px;
+    margin: 60px;
+    width: 500px;
 
     & img{
         border-radius: 30px;

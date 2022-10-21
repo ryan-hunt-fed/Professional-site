@@ -9,30 +9,23 @@ function Nav() {
     <>
 
       <div className='navbar'>
-
-
         <div>
           <Link to='/'>Home</Link>
-
         </div>
-
         <div>
           <Link to='/Portfolio'>Portfolio</Link>
-
         </div>
-
         <div>
-
           <Link to='/Blog'>Blog</Link>
-
         </div>
-
         <div>
           <Link to='/About'>About</Link>
         </div>
+        <div>
+          <Link to='/PictureOfDay'>Picture</Link>
+        </div>
         <div></div>
         <br />
-
         <div className='navbar-icons'>
           <div>
             <a href='mailto: rhuntwd@gmail.com'><img className='icons grow-icon' src='https://img.icons8.com/ios-filled/344/circled-envelope.png' alt='email' /></a>
