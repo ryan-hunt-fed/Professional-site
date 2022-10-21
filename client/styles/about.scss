@@ -1,0 +1,35 @@
+.about-title{
+    margin: 20px;
+    font-size: 36px;
+}
+
+
+.about-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.about-profile-image{
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px;
+    flex-wrap: wrap;
+
+    & img{
+        border-radius: 30px;
+    }
+    
+}
+
+.right-animation{
+    animation: fadeIn 2s, moveInRight 1s ;
+}
+
+
+  @keyframes moveInRight {
+    0%{transform: translateX(200px);}
+    100%{transform: translateX(0)}
+  }

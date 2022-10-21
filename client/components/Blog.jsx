@@ -6,11 +6,13 @@ import React from 'react'
 function Blog() {
   return (
     <>
-   
-    <div>
-      <h1>Blog</h1>
-    </div>
-      
+
+      <div className='load-animation'>
+        <div className='blog-title'>
+          <h1>Blog</h1>
+        </div>
+      </div>
+
     </>
   )
 }

@@ -8,24 +8,25 @@ import { thunkDog } from '../actions/pictureAction'
 
 function PictureOfDay() {
 
-    const picture = useSelector((store)=> store.picture)
-    console.log(picture, 'from day component')
-    const dispatch = useDispatch()
+  const picture = useSelector((store) => store.picture)
+  console.log(picture, 'from day component')
+  const dispatch = useDispatch()
 
-    useEffect(() => {
-        dispatch(thunkDog)
-    })
+  useEffect(() => {
+    dispatch(thunkDog)
+  })
 
   return (
     <>
-   
-    <div>
-        <p>Using some external Apis here is a range of images for today</p>
-    </div>
-    <div >
-        <img src={picture?.message} alt='dog'/>
+      <div className='load-animation'>
+        <div>
+          <p>Using some external Apis here is a range of images for today</p>
+        </div>
+        <div >
+          <img src={picture?.message} alt='dog' />
 
-    </div>
+        </div>
+      </div>
     </>
   )
 }

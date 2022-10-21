@@ -35,13 +35,16 @@ function Nav() {
 
         <div className='navbar-icons'>
           <div>
+            <a href='mailto: rhuntwd@gmail.com'><img className='icons grow-icon' src='https://img.icons8.com/ios-filled/344/circled-envelope.png' alt='email' /></a>
+          </div>
+          <div>
             <a href='https://www.linkedin.com/in/ryanhuntfwd/'><img className='icons grow-icon' src='https://img.icons8.com/ios-filled/344/linkedin-circled--v1.png' alt='Linkdin' /></a>
           </div>
           <div>
-            <a href='https://ryan_hunt.artstation.com/'><img className='icons grow-icon' src='https://img.icons8.com/windows/344/artstation.png' alt='Artstation' /></a>
+            <a href='https://github.com/ryan-hunt-fed'><img className='icons grow-icon' src='https://img.icons8.com/ios-filled/344/github.png' alt='Github' /></a>
           </div>
           <div>
-            <a href='https://github.com/ryan-hunt-fed'><img className='icons grow-icon' src='https://img.icons8.com/ios-filled/344/github.png' alt='Github' /></a>
+            <a href='https://ryan_hunt.artstation.com/'><img className='icons grow-icon' src='https://img.icons8.com/windows/344/artstation.png' alt='Artstation' /></a>
           </div>
           <div>
             <a href='https://www.instagram.com/cm_primus/'><img className='icons grow-icon' src='https://img.icons8.com/ios-filled/344/instagram-new--v1.png' alt='Instagram' /></a>

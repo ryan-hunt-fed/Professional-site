@@ -6,9 +6,10 @@
     gap: 25px;
     font-size: 24px;
     padding: 20px 90px;
-    background-color: rgb(237, 236, 247);
+    background-color: rgb(149, 181, 194);
     opacity: 75%;
-    transition: opacity .3s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    animation: topToBottom 1s;
   
     & a {
       text-decoration: none;
@@ -16,22 +17,21 @@
     }
   
     & a:hover{
-      color:rgb(169, 219, 234);
+      color:rgb(250, 168, 60);
     }
+  }
+
+  @keyframes topToBottom{
+    0%{transform: translateY(-100px);}
+    100%{transform: translateY(0)}
   }
 
   .navbar:hover{
     opacity: 100%;
-    transition: opacity .3s ease-in-out;
-    animation: bg 30s infinite
+    transition: opacity .2s ease-in-out;
   }
-
-  @keyframes bg{
-    0%, 100% { background-color: rgb(237, 236, 247);}
-    25% {background-color: rgb(166, 186, 199);}
-    50% {background-color: rgb(166, 199, 179);}
-    75% {background-color: rgb(191, 199, 166);}
-  }
+  
+ 
   
   .navbar-icons{
     display: flex;

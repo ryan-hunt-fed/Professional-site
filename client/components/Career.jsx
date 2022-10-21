@@ -6,8 +6,11 @@ import React from 'react'
 function Career() {
   return (
     <>
-   <p>career</p>
-      
+      <div className='load-animation'>
+        <p>career</p>
+
+      </div>
+
     </>
   )
 }

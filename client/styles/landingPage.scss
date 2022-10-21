@@ -1,5 +1,30 @@
 .name-title{
-    font-size: 36px;
+    font-size: 48px;
     margin-top: 50px;
-    margin-left: 50px;
+    // margin-left: 70px;
+    animation: fadeIn 2s, moveInLeft 1s ;
+    text-align: center;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 60px;
+    animation: fadeIn 2s, moveInLeft 1s ;
+    // width: 300px;
+   
+}
+
+
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes moveInLeft {
+    0%{transform: translateX(-100px);}
+    100%{transform: translateX(0)}
 }
