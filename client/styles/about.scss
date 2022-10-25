@@ -12,6 +12,11 @@
 }
 
 .about-standard-text{
+    margin-left: 22px;
+    margin-right: 50px;
+}
+
+.about-standard-title{
     margin-left: 20px;
     margin-right: 540px;
 }
@@ -21,7 +26,7 @@
     position: absolute;
     left: 880px;
     top:210px;
-    margin: 60px;
+    margin: 45px;
     width: 500px;
 
     & img{

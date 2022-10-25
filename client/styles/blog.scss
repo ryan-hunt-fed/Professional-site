@@ -3,3 +3,23 @@
     margin-left: 65px;
     font-size: 36px;
 }
+
+.blog-posts-container{
+    margin: 0px 85px;
+    // margin-right: 85px;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.blog-posts{
+    background-color: rgb(94, 114, 114);
+    border-radius: 5px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-posts-text{
+    margin-left: 15px;
+}

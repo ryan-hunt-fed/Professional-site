@@ -27,7 +27,7 @@ function Portfolio() {
         <p className='portfolio-standard-text'>To see my in progress development, feel free to check my <a href='https://github.com/ryan-hunt-fed' className='links'>GitHub</a> profile and look at my public repositories that I have open.</p>
 
         <h2 className='portfolio-standard-header'>3D Portfolio</h2>
-        <p className='portfolio-standard-text'> My other side of work I would like to do has been my 3D Art. I have been wanting to work in the games industry since a young age because of the stories and general creation. While I have not been able to get my foot in the door with that industry, I do have my own asperations of making my own games and minatures when the time comes. I have included my 3D portfolio in case any oppertunities or interships become avaliable, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a> for possible interest. I am more interested in 3D modelling than animation as of writing.</p>
+        <p className='portfolio-standard-text'> My other side of work I would like to do has been my 3D Art. I have been wanting to work in the games industry since a young age because of the stories and general creation. While I have not been able to get my foot in the door with that industry, I do have my own asperations of making my own games and minatures when the time comes. I have included my 3D portfolio in case any oppertunities or interships become avaliable, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a> for possible interest. I am more interested in 3D modelling than animation these days.</p>
 
         <div className='art-project-container'>
           <div className='art-projects grow'>
