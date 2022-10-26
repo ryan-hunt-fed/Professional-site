@@ -12,20 +12,20 @@ function AddBlog() {
     const navigate = useNavigate();
     // useSelector
     const [post, setPost] = useState([])
-    const submitHandler = async (evt) => {
+
+
+    const submitHandler = (evt) => {
         evt.preventDefault()
         dispatch(thunkAddPost(post))
         navigate('/Blog')
     }
 
     const typingHandler = (evt) => {
-        // setPost(evt.target.value)
-        // evt.preventDefault()
         setPost({
+            ...post,
             [evt.target.name]: evt.target.value,
         })
     }
-
 
     return (
         <>
@@ -33,15 +33,15 @@ function AddBlog() {
                 <div className='blog-title'>
                     <h1>New Blog Post</h1>
                 </div>
-                <div>
-                    <form onSubmit={submitHandler}>
-                        <label htmlFor='add'>Title:</label>
-                        <input type='text' id='add' onChange={typingHandler} ></input>
-                        <label htmlFor='add'>Summary:</label>
-                        <input type='text' id='add' onChange={typingHandler} ></input>
-                        <label htmlFor='add'>Post:</label>
-                        <input type='text' id='add' onChange={typingHandler} ></input>
-                        <button>Add Blog Post</button>
+                <div className='add-blog-form-container'>
+                    <form className='add-blog-form-direction' onSubmit={submitHandler}>
+                        <label className='add-blog-form' htmlFor='title'>Title:</label>
+                        <input type='text' name='title' id='title' onChange={typingHandler}></input>
+                        <label className='add-blog-form' htmlFor='summary'>Summary:</label>
+                        <input type='text' name='summary' id='summary' onChange={typingHandler} ></input>
+                        <label className='add-blog-form' htmlFor='post'>Post:</label>
+                        <textarea type='text' name='post' id='post' onChange={typingHandler} ></textarea>
+                        <button className='add-blog-form'>Add Blog Post</button>
                     </form>
                 </div>
             </div>

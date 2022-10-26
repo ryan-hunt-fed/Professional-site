@@ -13,7 +13,7 @@ import PictureOfDay from './PictureOfDay'
 
 import { thunkPost } from '../actions/blogAction'
 
-//TODO make a functioning blog for myself
+
 //TODO use authentication for a login for myself to make new blog posts
 //TODO add three.js to site in some way
 //TODO change background, possible animated background, possibly change colour scheme

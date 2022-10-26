@@ -1,8 +1,9 @@
 
-import { getPostApi, addPostApi } from "../apis/blogApi"
+import { getPostApi, addPostApi, delPostApi } from "../apis/blogApi"
 
 export const SHOW_POST = 'SHOW_POST'
 export const ADD_POST = 'ADD_POST'
+export const DEL_POST = 'DEL_POST'
 
 //action Get Data
 export function showPost(data) {
@@ -19,7 +20,6 @@ export function thunkPost(){
     return (dispatch) => {
         return getPostApi()
         .then((data) => {
-            console.log(data, 'from thunk')
             dispatch(showPost(data))
         })
     }
@@ -36,12 +36,31 @@ export function addPost(data) {
 
 //action THUNK Add Data
 
-export function thunkAddPost(){
+export function thunkAddPost(data){
     return (dispatch) => {
-        return addPostApi()
-        .then((data) => {
-            // console.log(data, 'from thunk')
-            dispatch(addPost(data))
+        return addPostApi(data)
+        .then((post) => {
+            dispatch(addPost(post))
+        })
+    }
+}
+
+//action Delete Data
+export function delPost(id) {
+  
+    return {
+        type: DEL_POST,
+        payload: id,
+    }
+}
+
+//action THUNK Delete Data
+
+export function thunkDelPost(id){
+    return (dispatch) => {
+        return delPostApi(id)
+        .then(() => {
+            dispatch(delPost(id))
         })
     }
 }

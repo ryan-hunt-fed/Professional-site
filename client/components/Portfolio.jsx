@@ -1,12 +1,8 @@
 import React from 'react'
 
-
-
-
 function Portfolio() {
   return (
     <>
-
       <div className='portfolio-content load-animation'>
         <div className='portfolio-title'>
           <h1>Portfolio</h1>

@@ -13,7 +13,9 @@ router.get('/', (req,res) => {
     })
 })
 
-router.post('/', (req, res) => {
+router.post('/',(req, res) => {
+    
+  
     const {title, summary, post} = req.body
     const data = {title, summary, post}
     db.newBlog(data)

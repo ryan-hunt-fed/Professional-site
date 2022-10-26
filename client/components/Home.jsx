@@ -26,16 +26,6 @@ function Home() {
                             <h3 className='scroller-text'>Blog</h3>
                         </Link>
                     </div>
-                    {/* <div className='scroller-item-3 grow'>
-                        <Link to='/Career'>
-                            <h3 className='scroller-text'>Career Interets</h3>
-                        </Link>
-                    </div>
-                    <div className='scroller-item-4 grow'>
-                        <Link to='/Hobbies'>
-                            <h3 className='scroller-text'>Hobbies and Personal Interets</h3>
-                        </Link>
-                    </div> */}
                     <div className='scroller-item-5 grow'>
                         <Link to='/About'>
                             <h3 className='scroller-text'>About</h3>
