@@ -9,7 +9,9 @@ import Blog from './Blog'
 import SingleBlog from './SingleBlog'
 import AddBlog from './AddBlog'
 import About from './About'
-import PictureOfDay from './PictureOfDay'
+// import PictureOfDay from './PictureOfDay'
+import Login from './Login'
+import Three from './Three'
 
 import { thunkPost } from '../actions/blogAction'
 
@@ -40,7 +42,9 @@ function App() {
         <Route path='/Blog/:id' element={<SingleBlog />} />
         <Route path='/Blog/add' element={<AddBlog />} />
         <Route path='/About' element={<About />} />
-        <Route path='/PictureOfDay' element={<PictureOfDay />} />
+        <Route path='/Login' element={<Login />} />
+        <Route path='/Three' element={<Three />} />
+        {/* <Route path='/PictureOfDay' element={<PictureOfDay />} /> */}
       </Routes>
     </>
   )

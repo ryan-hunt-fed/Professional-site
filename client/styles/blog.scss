@@ -27,8 +27,16 @@
 }
 
 .blog-new{
+    display: flex;
+    justify-content: space-between;
+    // text-align: center;
+    margin: 0px 80px;
+    gap: 40px;
+}
+
+.blog-login{
     text-align: end;
-    margin-right: 50px;
+    margin-right: 80px;
 }
 
 .add-blog-form-container{

@@ -7,7 +7,7 @@ import { thunkPost } from '../actions/blogAction'
 function SingleBlog() {
     const dispatch = useDispatch()
     const blog = useSelector((store) => store.blog)
-    console.log(blog, 'store from single');
+    console.log(blog, 'store from single current test');
     let { id } = useParams()
     // console.log(id, 'id from single')
 
@@ -22,7 +22,7 @@ function SingleBlog() {
                 <div className='blog-title'>
                     <h1>Blog</h1>
                 </div>
-                <div className='blog-single-container'>
+                <div className='blog-single-container' key={blog.id}>
                     <div className='blog-single-title'>
                         <h2>{blog[id - 1]?.title}</h2>
                     </div>

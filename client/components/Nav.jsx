@@ -18,9 +18,9 @@ function Nav() {
         <div>
           <Link to='/About'>About</Link>
         </div>
-        {/* <div>
-          <Link to='/PictureOfDay'>Picture</Link>
-        </div> */}
+        <div>
+          <Link to='/Three'>Three.js</Link>
+        </div>
         <div></div>
         <br />
         <div className='navbar-icons'>
