@@ -9,7 +9,7 @@ function SingleBlog() {
     const blog = useSelector((store) => store.blog)
     console.log(blog, 'store from single');
     let { id } = useParams()
-    console.log(id, 'id from single')
+    // console.log(id, 'id from single')
 
     useEffect(() => {
         dispatch(thunkPost(id))
@@ -22,14 +22,17 @@ function SingleBlog() {
                 <div className='blog-title'>
                     <h1>Blog</h1>
                 </div>
-                <div className='blog-single-title'>
-                    <h2>{blog[id - 1]?.title}</h2>
-                </div>
-                <div className='blog-single-text'>
-                    <p>{blog[id - 1]?.post}</p>
-                </div>
-                <div>
-                    <Link to='/blog' className='links'>Back</Link>
+                <div className='blog-single-container'>
+                    <div className='blog-single-title'>
+                        <h2>{blog[id - 1]?.title}</h2>
+                    </div>
+                    <div className='blog-single-text'>
+                        <p>{blog[id - 1]?.post}</p>
+                    </div>
+                    <div className='blog-single-text'>
+                        <Link to='/blog' className='links'>Back</Link>
+                    </div>
+
                 </div>
             </div>
 

@@ -31,11 +31,11 @@ function Home() {
                             <h3 className='scroller-text'>About</h3>
                         </Link>
                     </div>
-                    <div className='scroller-item-6 grow'>
+                    {/* <div className='scroller-item-6 grow'>
                         <Link to='/PictureOfDay'>
                             <h3 className='scroller-text'>Picture of the Day</h3>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

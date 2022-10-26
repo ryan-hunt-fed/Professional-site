@@ -6,7 +6,7 @@ import { thunkDelPost } from '../actions/blogAction'
 
 function Blog() {
 
-  const dispatch = useDispatch
+  const dispatch = useDispatch()
   const blog = useSelector((store) => store.blog)
   console.log(blog)
 

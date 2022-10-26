@@ -5,7 +5,7 @@ function Portfolio() {
     <>
       <div className='portfolio-content load-animation'>
         <div className='portfolio-title'>
-          <h1>Portfolio</h1>
+          <h1>Portfolios</h1>
         </div>
 
         <h2 className='portfolio-standard-header'>Web Portfolio</h2>
@@ -16,7 +16,7 @@ function Portfolio() {
             <p><strong>Dev Academy Group Project</strong></p>
             <img src="./images/PokeHuman-small.png" alt="Pokehuman"></img>
             <p><a href='https://www.youtube.com/watch?v=McOADYs6mEM' className='links'>Youtube Demo</a></p>
-            <p>Contributions: CSS/SASS, React components, Javascript battle screen logic collabriation, Product owner.</p>
+            <p>Contributions: CSS/SASS, React components, Javascript battle screen logic collabriation, Product owner, README documentation.</p>
           </div>
         </div>
 

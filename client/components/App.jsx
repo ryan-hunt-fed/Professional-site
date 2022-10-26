@@ -13,14 +13,14 @@ import PictureOfDay from './PictureOfDay'
 
 import { thunkPost } from '../actions/blogAction'
 
-
+//TODO fix delete issue on blog, once deleted post data won't match up on the specific data
 //TODO use authentication for a login for myself to make new blog posts
+//TODO add edit/update to blog posts
 //TODO add three.js to site in some way
-//TODO change background, possible animated background, possibly change colour scheme
-//TODO get picture of the day to work or transform it to some form of three.js thing
-//TODO look over content and see if things need to be culled
+//TODO change picture of the day to some form of webGL or Three.js page, possibly get data from a different external api
 //TODO look into webGL possibilities
-//TODO  have some form of js functionality to display that
+//TODO  have some form of js functionality to display that - form of blog and some other functionality
+
 
 function App() {
 

@@ -26,9 +26,11 @@
     margin: 5px;
     background-color: rgb(120, 120, 120);
     border-radius: 5px;
-    background-image: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background: rgb(174,235,238);
+    background: radial-gradient(circle, rgba(174,235,238,0.9668461134453782) 0%, rgba(148,180,233,1) 100%); 
     background-size: cover;
     background-repeat: no-repeat;
+  
   }
 
 
@@ -47,10 +49,12 @@
     padding: 130px 100px;
     background-color: rgb(120, 120, 120);
     border-radius: 5px;
-    background-image: url(https://i.natgeofe.com/n/8022bf25-d5ef-48c1-b460-dbac1448e122/09-9226610_uploadsmember665562yourshot-665562-9226610jpg_igdjhxksrjifxjzu4rgbsw37bhp3eflutfvvbpyjwjhzlmh4iziq_3000x2000.jpg?w=636&h=424);
+    background: rgb(174,235,238);
+    background: radial-gradient(circle, rgba(174,235,238,0.9668461134453782) 0%, rgba(148,180,233,1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 5px;
+ 
     
   }
   
@@ -81,10 +85,12 @@
     padding: 130px 100px;
     background-color: rgb(120, 120, 120);
     border-radius: 5px;
-    background-image: url(http://llandscapes-10674.kxcdn.com/wp-content/uploads/2019/07/lighting.jpg);
+    background: rgb(174,235,238);
+    background: radial-gradient(circle, rgba(174,235,238,0.9668461134453782) 0%, rgba(148,180,233,1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 5px;
+   
   }
   
   .scroller-item-6{
@@ -96,6 +102,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin: 5px;
+    
   }
   
   .snap{
@@ -106,6 +113,25 @@
   .snap > * {
     scroll-snap-align: start;
   }
+
+  .scroller-item-1:hover{
+    background: rgb(174,238,214);
+    background: radial-gradient(circle, rgba(174,238,214,0.9668461134453782) 0%, rgba(148,198,233,1) 100%);
+  }
+
+  .scroller-item-2:hover{
+    background: rgb(174,238,214);
+    background: radial-gradient(circle, rgba(174,238,214,0.9668461134453782) 0%, rgba(148,198,233,1) 100%);
+  }
+
+  .scroller-item-5:hover{
+    background: rgb(174,238,214);
+    background: radial-gradient(circle, rgba(174,238,214,0.9668461134453782) 0%, rgba(148,198,233,1) 100%);
+  }
+
+  
+
+
 
 // .button-prev{
 //   position: absolute;

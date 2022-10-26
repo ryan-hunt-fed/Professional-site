@@ -10,7 +10,7 @@ function Nav() {
           <Link to='/'>Home</Link>
         </div>
         <div>
-          <Link to='/Portfolio'>Portfolio</Link>
+          <Link to='/Portfolio'>Portfolios</Link>
         </div>
         <div>
           <Link to='/Blog'>Blog</Link>
@@ -18,9 +18,9 @@ function Nav() {
         <div>
           <Link to='/About'>About</Link>
         </div>
-        <div>
+        {/* <div>
           <Link to='/PictureOfDay'>Picture</Link>
-        </div>
+        </div> */}
         <div></div>
         <br />
         <div className='navbar-icons'>
