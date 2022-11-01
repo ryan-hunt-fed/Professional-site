@@ -6,19 +6,22 @@
     gap: 25px;
     font-size: 24px;
     padding: 20px 90px;
-    background-color: rgb(149, 181, 194);
+    background-color: #01627F;
     opacity: 75%;
     transition: opacity .2s ease-in-out;
     animation: topToBottom 1s;
-  
-    & a {
+
+    & a{
       text-decoration: none;
-      color: black
+    color: white;
+    transition-duration: 550ms;
+    transition-property: color;
+    }
+
+    & a:hover{
+      color:#EB7E3F;
     }
   
-    & a:hover{
-      color:rgb(250, 168, 60);
-    }
   }
 
   @keyframes topToBottom{
@@ -30,7 +33,7 @@
     opacity: 100%;
     transition: opacity .2s ease-in-out;
   }
-  
+
  
   
   .navbar-icons{
@@ -38,7 +41,7 @@
     align-content: center;
     justify-content: flex-end;
     gap: 10px;
-    margin-left: 510px;
+    margin-left: 570px;
   }
   
   .icons{

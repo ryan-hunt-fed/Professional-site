@@ -24,7 +24,7 @@ function Blog() {
           <h1>Blog</h1>
         </div>
         <div className='blog-new'>
-          <Link to='/Blog/add' className='links'>Add New Post</Link>
+          {auth.isAuthenticated ? <Link to='/Blog/add' className='links'>Add New Post</Link> : <></>}
           {auth.isAuthenticated ? <Link to="/Blog" onClick={logout} className="links">
             Logout
           </Link> : < Link to='/Login' className='links'>Admin Login</Link>}

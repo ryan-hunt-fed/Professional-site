@@ -1,7 +1,15 @@
 .blog-title{
     margin: 20px;
     margin-left: 65px;
+    margin-right: 1500px;
     font-size: 36px;
+    font-family: 'Cinzel Decorative', cursive;
+    transition-duration: 550ms;
+    transition-property: color;
+}
+
+.blog-title:hover{
+    color:#00C6AB;
 }
 
 .blog-posts-container{
@@ -14,12 +22,16 @@
 }
 
 .blog-posts{
-    background-color: rgb(110, 156, 169);
+    background-color: #2d9cbd;
     border-radius: 5px;
     padding: 80px;
     display: flex;
     flex-direction: column;
     width: 120px;
+}
+
+.blog-posts:hover{
+    background-color: #00AE95;
 }
 
 .blog-posts-text{

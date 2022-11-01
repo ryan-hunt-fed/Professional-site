@@ -3,7 +3,7 @@
     display: grid;
     gap: 8px;
     grid-auto-flow: column;
-    grid-auto-columns: 45%;
+    grid-auto-columns: 32%;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
     margin: 20px 70px;
@@ -20,90 +20,59 @@
     100%{transform: translateX(0)}
 }
   
+.scroller-text{
+  padding: 10px;
+  text-align: center;
+  font-size: 28px;
+  color:white;
+  transition-duration: 550ms;
+  transition-property: color;
+
+}
+.scroller-text:hover{
+  color: #EB7E3F;
+}
   .scroller-item-1{
     
     padding: 130px 140px;
     margin: 5px;
-    background-color: rgb(120, 120, 120);
     border-radius: 5px;
-    background: rgb(174,235,238);
-    background: radial-gradient(circle, rgba(174,235,238,0.9668461134453782) 0%, rgba(148,180,233,1) 100%); 
+    background-color: #2d9cbd;
     background-size: cover;
     background-repeat: no-repeat;
+    transition-duration: 750ms;
+    transition-property: background-color;
   
-  }
-
-
-  .scroller-text{
-    padding: 10px;
-    text-align: center;
-      font-size: 28px;
-      color:white;
-  }
-  .scroller-text:hover{
-    color: rgb(250, 168, 60);
   }
   
   .scroller-item-2{
     
     padding: 130px 100px;
-    background-color: rgb(120, 120, 120);
     border-radius: 5px;
-    background: rgb(174,235,238);
-    background: radial-gradient(circle, rgba(174,235,238,0.9668461134453782) 0%, rgba(148,180,233,1) 100%);
+    background-color: #2d9cbd;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 5px;
+    transition-duration: 850ms;
+    transition-property: background-color;
  
     
   }
   
-  // .scroller-item-3{
-    
-  //   padding: 130px 100px;
-  //   background-color: rgb(120, 120, 120);
-  //   border-radius: 5px;
-  //   background-image: url(https://images.squarespace-cdn.com/content/v1/59ef2d3c9f8dce981401a30d/1592002341643-UCT10ZFLQ5GCJU8L1OVY/colorful+landscapes.jpg?format=1000w);
-  //   background-size: cover;
-  //   background-repeat: no-repeat;
-  //   margin: 5px;
-  // }
-  
-  // .scroller-item-4{
-    
-  //   padding: 130px 100px;
-  //   background-color: rgb(120, 120, 120);
-  //   border-radius: 5px;
-  //   background-image: url(https://www.amateurphotographer.co.uk/wp-content/uploads/2022/03/Landscape-South-Island-New-Zealand-820x500.jpg);
-  //   background-size: cover;
-  //   background-repeat: no-repeat;
-  //   margin: 10px;
-  // }
-  
+ 
   .scroller-item-5{
     
     padding: 130px 100px;
-    background-color: rgb(120, 120, 120);
     border-radius: 5px;
-    background: rgb(174,235,238);
-    background: radial-gradient(circle, rgba(174,235,238,0.9668461134453782) 0%, rgba(148,180,233,1) 100%);
+    background-color: #2d9cbd;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 5px;
+    transition-duration: 550ms;
+    transition-property: background-color;
    
   }
   
-  .scroller-item-6{
-    
-    padding: 130px 100px;
-    background-color: rgb(120, 120, 120);
-    border-radius: 5px;
-    background-image: url(https://media.istockphoto.com/photos/alberta-wilderness-near-banff-picture-id583809524?b=1&k=20&m=583809524&s=612x612&w=0&h=ZH0lrJI2ypyxvWQRtpwYcBFZoLLI4XdHWX5xP3JKkKQ=);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 5px;
-    
-  }
   
   .snap{
     scroll-snap-type: inline mandatory;
@@ -115,18 +84,17 @@
   }
 
   .scroller-item-1:hover{
-    background: rgb(174,238,214);
-    background: radial-gradient(circle, rgba(174,238,214,0.9668461134453782) 0%, rgba(148,198,233,1) 100%);
+    background-color: #00AE95;
+    
   }
 
   .scroller-item-2:hover{
-    background: rgb(174,238,214);
-    background: radial-gradient(circle, rgba(174,238,214,0.9668461134453782) 0%, rgba(148,198,233,1) 100%);
+    background-color: #00AE95;
   }
 
   .scroller-item-5:hover{
-    background: rgb(174,238,214);
-    background: radial-gradient(circle, rgba(174,238,214,0.9668461134453782) 0%, rgba(148,198,233,1) 100%);
+    background-color: #00AE95;
+    
   }
 
   

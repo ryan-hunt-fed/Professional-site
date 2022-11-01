@@ -1,7 +1,15 @@
 .about-title{
     margin: 20px;
     margin-left: 65px;
+    margin-right: 1500px;
     font-size: 36px;
+    font-family: 'Cinzel Decorative', cursive;
+    transition-duration: 550ms;
+    transition-property: color;
+}
+
+.about-title:hover{
+    color: #00C6AB;
 }
 
 
