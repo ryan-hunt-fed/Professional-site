@@ -11,7 +11,7 @@
         font-size: 60px;
         transition-duration: 550ms;
         transition-property: color;
-        font-family: 'Cinzel Decorative', cursive;
+        font-family: 'Nova Round', cursive;
     }
 
     & h1:hover{
@@ -37,14 +37,19 @@
     // width: 300px;
    & h2{
     font-size: 26px;
+    font-family:  'Nova Round', cursive;
    }
 }
 
-.home-logo{
-    width: 160px;
-    margin-right: 160px;
-    animation: fadeIn 2s, moveInRight 1s ;
+.skills-title{
+    font-family:  'Nova Round', cursive;
 }
+
+// .home-logo{
+//     width: 160px;
+//     margin-right: 160px;
+//     animation: fadeIn 2s, moveInRight 1s ;
+// }
 
 .icon{
     padding: 15px;
@@ -52,18 +57,19 @@
     border-radius: 50%;
     margin-right: 180px;
     font-size: 60px;
-    font-family:  'Cinzel Decorative', cursive;
+    font-family:  'Nova Round', cursive;
     box-shadow: 18px 15px 0px 0px #00C6AB, -21px 15px 0px 0px #EB9B6C, -21px -25px 0px 0px #00C6AB, 18px -25px 0px 0px #EB9B6C;
     transition-duration: 550ms;
     transition-property: box-shadow;
+    animation: moveShadow 2s infinite ease-in-out;
     // animation: fadeIn 2s;
 }
 
-.icon:hover{
-    animation: moveShadow 2s infinite;
-    // animation-delay: 1s;
+// .icon:hover{
     
-}
+//     // animation-delay: 1s;
+    
+// }
 
 .grow-icon { 
     transition: all .3s ease-in-out; 

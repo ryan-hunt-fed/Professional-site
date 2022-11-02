@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 import { loginUser, loginError } from '../actions/auth'
 
@@ -69,7 +69,9 @@ function Login() {
                 </label>
                 <input className="login-button" value="Login" type="submit" />
             </form>
-
+            <div className='login-back'>
+                <Link to='/blog' className='links'>Back</Link>
+            </div>
         </div>
     )
 }

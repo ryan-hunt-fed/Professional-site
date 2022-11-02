@@ -14,6 +14,7 @@ import About from './About'
 // import PictureOfDay from './PictureOfDay'
 import Login from './Login'
 import Three from './Three'
+// import Background from './Background'
 // import Box from './Box'
 
 import { thunkPost } from '../actions/blogAction'
@@ -23,6 +24,7 @@ import { thunkPost } from '../actions/blogAction'
 //TODO add three.js to site in some way
 //TODO look into webGL possibilities
 //TODO  have some form of js functionality to display that - form of blog and some other functionality
+//TODO animated background
 
 
 function App() {
@@ -36,6 +38,7 @@ function App() {
   return (
     <>
       <Nav />
+      {/* <Background /> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Portfolio' element={<Portfolio />} />

@@ -24,7 +24,7 @@ function SingleBlog() {
                 </div>
                 <div className='blog-single-container' key={blog.id}>
                     <div className='blog-single-title'>
-                        <h2>{blog[id - 1]?.title}</h2>
+                        <h2 className='blog-single-tab-title'>{blog[id - 1]?.title}</h2>
                     </div>
                     <div className='blog-single-text'>
                         <p>{blog[id - 1]?.post}</p>

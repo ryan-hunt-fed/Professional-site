@@ -3,7 +3,7 @@
     margin-left: 65px;
     margin-right: 1500px;
     font-size: 36px;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Nova Round', cursive;
     transition-duration: 550ms;
     transition-property: color;
 }
@@ -27,6 +27,10 @@
 .about-standard-title{
     margin-left: 20px;
     margin-right: 540px;
+
+    & h3 {
+        font-family:  'Nova Round', cursive;
+    }
 }
 
 

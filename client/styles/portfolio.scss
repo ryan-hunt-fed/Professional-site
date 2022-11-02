@@ -8,7 +8,7 @@
     margin-left: 20px;
     font-size: 36px;
     margin-right: 1500px;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Nova Round', cursive;
 }
 
 .portfolio-title-color{
@@ -22,6 +22,7 @@
 
 .portfolio-standard-header{
     margin-left: 20px;
+    font-family:  'Nova Round', cursive;
 }
 
 .portfolio-standard-text{
@@ -43,10 +44,12 @@
     // justify-content: center;
     align-items: center;
     background-color: #2d9cbd;
-    border-radius: 20px;
+    border-radius: 5px;
     width: 200px;
     height: 250px;
-    padding: 15px 15px;
+    padding: 10px 15px;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
 
     & img{
         width: 200px;
@@ -73,7 +76,7 @@
     // justify-content: center;
     align-items: center;
     background-color: #2d9cbd;
-    border-radius: 20px;
+    border-radius: 5px;
     width: 200px;
     height: 250px;
     padding: 10px 15px;
@@ -86,4 +89,9 @@
 
 .art-projects:hover{
     background-color: #00AE95;
+}
+
+.project-title{
+    font-family:  'Nova Round', cursive;
+    text-align: center;
 }

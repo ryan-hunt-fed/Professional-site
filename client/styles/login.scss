@@ -18,12 +18,13 @@
     margin-left: 0px;
     margin-right: 1500px;
     font-size: 48px;
+    font-family:  'Nova Round', cursive;
     transition-duration: 550ms;
     transition-property: color;
 }
 
 .login-title:hover{
-    color:#f0eb86;
+    color:#00C6AB;
 }
 
 .login-user{
@@ -52,6 +53,10 @@ margin-left: 20px;
     // margin-right: 525px;
     width: 80px;
     color:white;
-    background-color: #a2a8d5;
+    background-color: #00C6AB;
     border-radius: 5px;
+}
+
+.login-back{
+    margin-left: 90px;  
 }

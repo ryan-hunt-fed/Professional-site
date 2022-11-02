@@ -9,15 +9,14 @@
 @import "./login.scss";
 
 
-// @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Cinzel:wght@600&family=Khand&family=Michroma&family=Quicksand:wght@400;500&family=Righteous&family=Roboto+Condensed&family=Rokkitt&family=Saira+Semi+Condensed&family=Stick+No+Bills&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Cinzel+Decorative&family=Cinzel:wght@600&family=Khand&family=Michroma&family=Quicksand:wght@400;500&family=Righteous&family=Roboto+Condensed&family=Rokkitt&family=Saira+Semi+Condensed&family=Stick+No+Bills&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Cinzel+Decorative&family=Cinzel:wght@600&family=Josefin+Slab&family=Khand&family=Michroma&family=Nova+Round&family=Quicksand:wght@400;500&family=Righteous&family=Roboto+Condensed&family=Rokkitt&family=Saira+Semi+Condensed&family=Stick+No+Bills&family=Syncopate&display=swap');
 
 body {
   top: 0;
   left: 0;
   margin: 0;
   // font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font: 14px 'Quicksand', sans-serif;
+  font: 15px 'Quicksand', sans-serif;
   background-color: #354A54;
   color: white;
   margin-bottom: 60px;
@@ -49,7 +48,7 @@ body {
 .links{
   transition-duration: 550ms;
   transition-property: color;
-  color:#83F9BE;
+  color:#dede92;
 }
 
 .links:hover{
@@ -78,4 +77,140 @@ body {
   margin: 20px;
   margin-left: 65px;
   font-size: 48px;
+}
+
+.box ul li{
+  position:absolute;
+  width: 35px;
+  height: 35px;
+  list-style: none;
+  opacity: 0;
+  background: radial-gradient(#98DCFE,transparent,transparent);
+  bottom:0;
+  z-index: -1;
+  left:10vw;
+  animation: animate 15s linear infinite ;
+  overflow: hidden;
+}
+
+.box ul li:nth-child(2){
+  left: 45vw;
+  animation-delay: 5.5s;
+}
+
+.box ul li:nth-child(3){
+  left: 60vw;
+  animation-delay: 3s;
+}
+
+.box ul li:nth-child(4){
+  left: 75vw;
+  animation-delay: 8s;
+}
+
+.box ul li:nth-child(5){
+  left: 15vw;
+  animation-delay: 5s;
+}
+
+.box ul li:nth-child(6){
+  left: 80vw;
+  animation-delay: 6s;
+}
+
+.box ul li:nth-child(7){
+  left: 85vw;
+  animation-delay: 13.5s;
+}
+
+.box ul li:nth-child(8){
+  left: 24vw;
+  animation-delay: 12s;
+}
+
+@keyframes animate{
+  0%{
+    transform: translateY(40vh) scale(1);
+    opacity: 0;
+    bottom: 0;
+  }
+  50%{
+    transform: translateY(20vh) scale(4.5);
+    opacity: 0.2;
+    bottom: 50vh;
+  }
+  100%{
+    transform: translateY(-10vh) scale(8.5);
+    opacity: 0;
+    bottom:100vh;
+  }
+}
+
+
+.box-small ul li{
+  position:absolute;
+  width: 35px;
+  height: 35px;
+  list-style: none;
+  opacity: 0;
+  background: radial-gradient(#98DCFE,transparent,transparent);
+  bottom:0;
+  z-index: -1;
+  left:10vw;
+  animation: animate-small 10s linear infinite ;
+  overflow: hidden;
+}
+
+.box-small ul li:nth-child(2){
+  left: 45vw;
+  animation-delay: 5.5s;
+}
+
+.box-small ul li:nth-child(3){
+  left: 60vw;
+  animation-delay: 3s;
+}
+
+.box-small ul li:nth-child(4){
+  left: 75vw;
+  animation-delay: 8s;
+}
+
+.box-small ul li:nth-child(5){
+  left: 15vw;
+  animation-delay: 5s;
+}
+
+.box-small ul li:nth-child(6){
+  left: 80vw;
+  animation-delay: 6s;
+}
+
+.box-small ul li:nth-child(7){
+  left: 85vw;
+  animation-delay: 13.5s;
+}
+
+.box-small ul li:nth-child(8){
+  left: 24vw;
+  animation-delay: 12s;
+}
+
+@keyframes animate-small{
+  0%{
+    transform: translateY(-5vh) scale(3);
+    opacity: 0;
+    bottom: 0;
+    
+  }
+  50%{
+    transform: translateY(-7vh) scale(7);
+    opacity: 0.3;
+    bottom: 50vh;
+  }
+  100%{
+    transform: translateY(-10vh) scale(10);
+    opacity: 0;
+    bottom:100vh;
+  }
 }
