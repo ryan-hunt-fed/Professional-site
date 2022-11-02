@@ -13,7 +13,7 @@ import AddBlog from './AddBlog'
 import About from './About'
 // import PictureOfDay from './PictureOfDay'
 import Login from './Login'
-import Three from './Three'
+// import Three from './Three'
 // import Background from './Background'
 // import Box from './Box'
 
@@ -47,7 +47,7 @@ function App() {
         <Route path='/Blog/add' element={<AddBlog />} />
         <Route path='/About' element={<About />} />
         <Route path='/Login' element={<Login />} />
-        <Route path='/Three' element={<Three />} />
+        {/* <Route path='/Three' element={<Three />} /> */}
       </Routes>
     </>
   )
