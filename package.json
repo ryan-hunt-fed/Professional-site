@@ -79,6 +79,7 @@
     "express": "^4.17.2",
     "knex": "^2.1.0",
     "pg": "^8.7.1",
+    "react-reveal": "^1.2.2",
     "sqlite3": "^5.0.8",
     "superagent": "7.1.1",
     "three-obj-mtl-loader": "^1.0.3"

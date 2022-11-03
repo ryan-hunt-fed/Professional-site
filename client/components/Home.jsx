@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 
 import Background from './Background'
 
@@ -60,7 +60,7 @@ function Home() {
                 <p>If you are a company wanting to hire a Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UI and further learning in a range of areas, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. If you are a Game company who are currently looking for people to take internships for 3D modelling roles, please also <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635504017595/single-media-viewer/' className='links'>CV</a> avaiable for view at your interest.</p>
 
             </div>
-            {/* <Fade bottom> */}
+            <Fade bottom>
                 <div className='main-container' >
                     <div className='scroller-container snap' >
                         <div className='scroller-item-1 grow' >
@@ -80,7 +80,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            {/* </Fade> */}
+            </Fade>
         </>
     )
 }
