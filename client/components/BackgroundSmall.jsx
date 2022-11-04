@@ -6,8 +6,6 @@ function BackgroundSmall() {
 
     return (
         <>
-
-
             <div className='box-small'>
                 <ul>
                     <li></li>
@@ -20,8 +18,6 @@ function BackgroundSmall() {
                     <li></li>
                 </ul>
             </div>
-
-
         </>
     )
 }
