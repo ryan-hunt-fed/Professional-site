@@ -70,7 +70,7 @@ function Login() {
                 <input className="login-button" value="Login" type="submit" />
             </form>
             <div className='login-back'>
-                <Link to='/blog' className='links'>Back</Link>
+                <Link to='/Blog' className='links'>Back</Link>
             </div>
         </div>
     )
