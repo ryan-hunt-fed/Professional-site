@@ -11,7 +11,7 @@ function Blog() {
   const dispatch = useDispatch()
   const blog = useSelector((store) => store.blog)
   const auth = useSelector((store) => store.auth)
-  console.log(blog)
+  // console.log(blog)
 
   const logout = () => {
     const confirmSuccess = () => navigate('/Blog')
@@ -36,7 +36,7 @@ function Blog() {
         </div>
         <br />
         <div className='blog-posts-container'>
-          {blog.map((post, idx) => {
+          {blog?.map((post, idx) => {
             return (
               <>
                 <div className='blog-posts grow' key={idx}>
