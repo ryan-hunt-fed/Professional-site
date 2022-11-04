@@ -6,8 +6,6 @@ function Background() {
 
     return (
         <>
-
-
             <div className='box'>
                 <ul>
                     <li></li>
@@ -20,8 +18,6 @@ function Background() {
                     <li></li>
                 </ul>
             </div>
-
-
         </>
     )
 }

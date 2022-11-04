@@ -36,7 +36,7 @@ function Blog() {
         </div>
         <br />
         <div className='blog-posts-container'>
-          {blog?.map((post, idx) => {
+          {blog.map((post, idx) => {
             return (
               <>
                 <div className='blog-posts grow' key={idx}>
