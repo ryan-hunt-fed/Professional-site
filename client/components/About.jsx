@@ -23,7 +23,7 @@ function About() {
             <p className='about-standard-text'>In my personal life, I like to play video games, get together with friends to either play Magic the Gathering or Dungeons and Dragons, drawing (Both digitally and physically), miniature painting, the previously mentioned 3D modeling and animation, catching up on the various media I&#39;m interested in, all the while trying to maintain a healthy wellbeing.</p>
             <p className='about-standard-text'>Things I would like to get into at some stage would be learning piano, getting my guitar out again, video editing, photography/astrophotography, astronomy, writing for storytelling, previously mentioned 3D printing and archery.</p>
 
-            <h3>Contact & Work</h3>
+            <h1 className='contact-title'>Contact</h1>
             <ul className='about-standard-text'>
               <li><a className='links' href='mailto: rhuntwd@gmail.com'>Email</a></li>
               <li><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635504017595/single-media-viewer/' className='links'>CV</a></li>

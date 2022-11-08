@@ -96,9 +96,6 @@
     
   }
 
-  
-
-
 
 // .button-prev{
 //   position: absolute;
@@ -131,4 +128,23 @@
 // .button-prev:focus{
 //   outline: 1px solid black;
 // }
+
+@media screen and (max-width:800px) {
+
+
+  .scroller-item-1{
+    padding: 50px 40px;
+}
+
+.scroller-item-5{
+  padding: 50px 60px;
+}
+
+}
  
+@media screen and (max-width:400px) {
+  .scroller-container{
+    display:none;
+  }
+  
+}

@@ -16,7 +16,7 @@ function Nav() {
           <Link to='/Blog'><strong>Blog</strong></Link>
         </div> */}
         <div className='navbar-text'>
-          <Link to='/About'><strong>About</strong></Link>
+          <Link to='/About'><strong>About/Contact</strong></Link>
         </div>
         {/* <div className='navbar-text'>
           <Link to='/Three'><strong>Three.js</strong></Link>

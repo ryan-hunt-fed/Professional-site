@@ -111,3 +111,65 @@
     100%{box-shadow: 18px 15px 0px 0px #00C6AB, -21px 15px 0px 0px #EB9B6C, -21px -25px 0px 0px #00C6AB, 18px -25px 0px 0px #EB9B6C}
 
   }
+
+  @media screen and (max-width:800px) {
+
+    .icon{
+        margin-right: 100px;
+    }
+
+    .header{
+        margin-left: 40px;
+        & h1{
+            font-size: 60px;
+
+        }
+    }
+
+    .intro-text{
+
+        margin: 0px 40px;
+        // margin-right: 0px;
+        font-size: 14px;
+
+        & h2{
+            font-size: 20px;
+        }
+    }
+
+    .intro-skillsets{
+        // flex-direction: column;
+        gap:15px;
+    }
+}
+  
+  @media screen and (max-width:400px) {
+
+    .icon{
+        display: none;
+    }
+
+    .header{
+        margin-left: 40px;
+        & h1{
+            font-size: 50px;
+
+        }
+    }
+
+    .intro-text{
+
+        margin: 0px 40px;
+        // margin-right: 0px;
+        font-size: 13px;
+
+        & h2{
+            font-size: 16px;
+        }
+    }
+
+    .intro-skillsets{
+        flex-direction: column;
+        gap:20px;
+    }
+}
