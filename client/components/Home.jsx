@@ -72,11 +72,11 @@ function Home() {
                                 <h3 className='scroller-text'>Portfolio</h3>
                             </Link>
                         </div>
-                        <div className='scroller-item-2 grow'>
+                        {/* <div className='scroller-item-2 grow'>
                             <Link to='/Blog'>
                                 <h3 className='scroller-text'>Blog</h3>
                             </Link>
-                        </div>
+                        </div> */}
                         <div className='scroller-item-5 grow'>
                             <Link to='/About'>
                                 <h3 className='scroller-text'>About</h3>
