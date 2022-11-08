@@ -3,8 +3,6 @@
     display: grid;
     gap: 8px;
     grid-auto-flow: column;
-    // grid-auto-columns: 32%;
-    // overflow-x: auto;
     overscroll-behavior-inline: contain;
     margin: 20px 100px;
     animation: fadeIn 2s, moveInLeft 1s ;
