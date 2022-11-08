@@ -12,9 +12,9 @@ function Nav() {
         <div className='navbar-text'>
           <Link to='/Portfolio'><strong>Portfolios</strong></Link>
         </div>
-        <div className='navbar-text'>
+        {/* <div className='navbar-text'>
           <Link to='/Blog'><strong>Blog</strong></Link>
-        </div>
+        </div> */}
         <div className='navbar-text'>
           <Link to='/About'><strong>About</strong></Link>
         </div>

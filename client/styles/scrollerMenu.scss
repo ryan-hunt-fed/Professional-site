@@ -3,10 +3,10 @@
     display: grid;
     gap: 8px;
     grid-auto-flow: column;
-    grid-auto-columns: 32%;
-    overflow-x: auto;
+    // grid-auto-columns: 32%;
+    // overflow-x: auto;
     overscroll-behavior-inline: contain;
-    margin: 20px 70px;
+    margin: 20px 100px;
     animation: fadeIn 2s, moveInLeft 1s ;
   }
 
@@ -24,7 +24,7 @@
   padding: 10px;
   text-align: center;
   font-size: 28px;
-  font-family:  'Nova Round', cursive;
+  font-family: 'Nova Round', cursive;
   color:white;
   transition-duration: 550ms;
   transition-property: color;
@@ -35,7 +35,7 @@
 }
   .scroller-item-1{
     
-    padding: 130px 140px;
+    padding: 100px 80px;
     margin: 5px;
     border-radius: 5px;
     background-color: #2d9cbd;
@@ -46,24 +46,24 @@
   
   }
   
-  .scroller-item-2{
+  // .scroller-item-2{
     
-    padding: 130px 100px;
-    border-radius: 5px;
-    background-color: #2d9cbd;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 5px;
-    transition-duration: 850ms;
-    transition-property: background-color;
+  //   padding: 130px 100px;
+  //   border-radius: 5px;
+  //   background-color: #2d9cbd;
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  //   margin: 5px;
+  //   transition-duration: 850ms;
+  //   transition-property: background-color;
  
     
-  }
+  // }
   
  
   .scroller-item-5{
     
-    padding: 130px 100px;
+    padding: 100px 80px;
     border-radius: 5px;
     background-color: #2d9cbd;
     background-size: cover;

@@ -7,7 +7,7 @@ import { useDispatch } from 'react-redux'
 import Home from './Home'
 import Nav from './Nav'
 import Portfolio from './Portfolio'
-import Blog from './Blog'
+// import Blog from './Blog'
 import SingleBlog from './SingleBlog'
 import AddBlog from './AddBlog'
 import About from './About'
@@ -38,7 +38,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/Portfolio' element={<Portfolio />} />
-        <Route path='/Blog' element={<Blog />} />
+        {/* <Route path='/Blog' element={<Blog />} /> */}
         <Route path='/Blog/:id' element={<SingleBlog />} />
         <Route path='/Blog/add' element={<AddBlog />} />
         <Route path='/About' element={<About />} />
