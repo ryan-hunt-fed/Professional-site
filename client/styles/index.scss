@@ -214,3 +214,39 @@ body {
     bottom:100vh;
   }
 }
+
+@media screen and (max-width:400px) {
+
+  .box ul li:nth-child(3){
+    display: none;
+  }
+  
+  .box ul li:nth-child(4){
+    display: none;
+  }
+
+  .box ul li:nth-child(6){
+    display: none;
+  }
+  
+  .box ul li:nth-child(7){
+    display: none;
+  }
+
+  .box-small ul li:nth-child(3){
+    display: none;
+  }
+  
+  .box-small ul li:nth-child(4){
+    display: none;
+  }
+
+  .box-small ul li:nth-child(6){
+    display: none;
+  }
+  
+  .box-small ul li:nth-child(7){
+    display: none;
+  }
+  
+}
