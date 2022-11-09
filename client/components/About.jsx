@@ -26,7 +26,7 @@ function About() {
             <h1 className='contact-title'>Contact</h1>
             <ul className='about-standard-text'>
               <li><a className='links' href='mailto: rhuntwd@gmail.com'>Email</a></li>
-              <li><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635504017595/single-media-viewer/' className='links'>CV</a></li>
+              <li><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635507303678/single-media-viewer/' className='links'>CV</a></li>
               <li><a className='links' href='https://www.linkedin.com/in/ryanhuntfwd/'>Linkedin</a></li>
               <li><a className='links' href='https://github.com/ryan-hunt-fed'>GitHub</a></li>
               <li><a className='links' href='https://ryan_hunt.artstation.com/'>Artstation - 3D Portfolio</a></li>

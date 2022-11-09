@@ -11,7 +11,7 @@ function Home() {
             <Background />
             <div className="header">
                 <div className="header-title">
-                    <h1 className='name-title'>Ryan Hunt</h1>
+                    <h1>Ryan Hunt</h1>
                 </div>
                 <h2 className='icon grow-icon'>RH</h2>
             </div>
@@ -60,7 +60,7 @@ function Home() {
                     </div>
                 </div>
                 <div>
-                    <p>If you are a company wanting to hire a Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UI and further learning in a range of areas, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. If you are a Game company who are currently looking for people to take internships for 3D modelling roles, please also <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635504017595/single-media-viewer/' className='links'>CV</a> avaiable for view at your interest.</p>
+                    <p>If you are a company wanting to hire a Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UI and further learning in a range of areas, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. If you are a Game company who are currently looking for people to take internships for 3D modelling roles, please also <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635507303678/single-media-viewer/' className='links'>CV</a> avaiable for view at your interest.</p>
                 </div>
 
             </div>
