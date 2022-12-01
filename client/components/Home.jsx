@@ -36,9 +36,15 @@ function Home() {
                         <p className='skills-title'>Code Areas of Interest for Learning</p>
                         <ul>
                             <li>UI - for both code and design</li>
+                            <li>Web Design</li>
+                            <li>Bootstrap</li>
+                            <li>WebFlow</li>
+                            <li>Vue.js</li>
+                            <li>CSS Frameworks</li>
                             <li>WebGL</li>
                             <li>Three.js</li>
-                            <li>C#/C++ - Game Development</li>
+                            <li>Game Development</li>
+                            <li>C#/C++ - For Game Development</li>
                         </ul>
                     </div>
                     <div>
@@ -55,6 +61,7 @@ function Home() {
                             <li>Character Modelling</li>
                             <li>Character Sculpting</li>
                             <li>Environment Modelling</li>
+                            <li>3D Printing, Resin Curing and Better Painting Practices</li>
                             <li>Good Drawing Practices and Improvements</li>
                         </ul>
                     </div>
