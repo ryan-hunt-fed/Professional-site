@@ -66,7 +66,8 @@ function Home() {
                             <li>Good Drawing Practices and Improvements</li>
                             <li>VR Games</li>
                             <li>Good Minature Painting Practices and Improvements</li>
-                            <li>Motion Capture and 3D Animation Practices</li>
+                            <li>Motion Capture</li>
+                            <li>3D Animation Practices</li>
                         </ul>
                     </div>
                 </div>
