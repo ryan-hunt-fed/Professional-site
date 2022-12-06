@@ -65,6 +65,8 @@ function Home() {
                             <li>3D Printing, Resin Curing and Better Painting Practices</li>
                             <li>Good Drawing Practices and Improvements</li>
                             <li>VR Games</li>
+                            <li>Good Minature Painting Practices and Improvements</li>
+                            <li>Motion Capture and 3D Animation Practices</li>
                         </ul>
                     </div>
                 </div>
