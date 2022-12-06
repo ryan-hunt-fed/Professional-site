@@ -6,23 +6,26 @@ function Nav() {
     <>
 
       <div className='navbar'>
-        <div className='navbar-text'>
-          <Link to='/'><strong>Home</strong></Link>
+        <div className='navbar-menu'>
+          <div className='navbar-text'>
+            <Link to='/'><strong>Home</strong></Link>
+          </div>
+          <div className='navbar-text'>
+            <Link to='/Portfolio'><strong>Portfolios</strong></Link>
+          </div>
+          {/* <div className='navbar-text'>
+            <Link to='/Blog'><strong>Blog</strong></Link>
+          </div> */}
+          <div className='navbar-text'>
+            <Link to='/About'><strong>About/Contact</strong></Link>
+          </div>
+          {/* <div className='navbar-text'>
+            <Link to='/Three'><strong>Three.js</strong></Link>
+          </div> */}
+          <div></div>
+          <br />
+
         </div>
-        <div className='navbar-text'>
-          <Link to='/Portfolio'><strong>Portfolios</strong></Link>
-        </div>
-        {/* <div className='navbar-text'>
-          <Link to='/Blog'><strong>Blog</strong></Link>
-        </div> */}
-        <div className='navbar-text'>
-          <Link to='/About'><strong>About/Contact</strong></Link>
-        </div>
-        {/* <div className='navbar-text'>
-          <Link to='/Three'><strong>Three.js</strong></Link>
-        </div> */}
-        <div></div>
-        <br />
         <div className='navbar-icons'>
           <div>
             <a href='mailto: rhuntwd@gmail.com'><img className='icons grow-icon' src='data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xNi4xMjUsMzcuNjI1djAuMTY3OTdsNjkuODc1LDQxLjk5MjE5bDY5Ljg3NSwtNDEuOTkyMTl2LTAuMTY3OTd6TTE2LjEyNSw1MC4zOTA2M3Y4My45ODQzOGgxMzkuNzV2LTgzLjk4NDM3bC02OS44NzUsNDEuODI0MjJ6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=' alt='email' /></a>

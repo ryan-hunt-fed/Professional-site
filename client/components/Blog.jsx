@@ -42,7 +42,7 @@ function Blog() {
                 <div className='blog-posts grow' key={idx}>
                   <h2 className='blog-single-tab-title'><a href={`/Blog/${post?.id}`} className='links'>{post?.title}</a></h2>
                   <p className='blog-posts-text'>{post?.summary}</p>
-                  {/* <Link to={`/Blog/${post.id}`} className='blog-posts-text'>View Post</Link> */}
+                  <Link to={`/Blog/${post.id}`} className='blog-posts-text'>View Post</Link>
                   {auth.isAuthenticated ? <button className='blog-button' onClick={(evt) => {
                     evt.preventDefault()
                     dispatch(thunkDelPost(post?.id))

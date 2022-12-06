@@ -27,18 +27,25 @@
 
 .about-content{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    // justify-content: space-between;
     margin-left: 50px;
+    // width: 80%;
+}
+
+.about-text-container{
+    // width:180%;
+
 }
 
 .about-standard-text{
     margin-left: 22px;
-    margin-right: 50px;
+    // margin-right: 50px;
 }
 
 .about-standard-title{
     margin-left: 20px;
-    margin-right: 540px;
+    margin-right: 40px;
 
     & h3 {
         font-family:  'Nova Round', cursive;
@@ -47,14 +54,16 @@
 
 
 .about-profile-image{
-    position: absolute;
-    left: 880px;
-    top:210px;
+    // position: absolute;
+    // left: 880px;
+    // top:210px;
     margin: 45px;
-    width: 500px;
+    margin-right: 150px;
+    width: 40%;
 
     & img{
         border-radius: 30px;
+        width: 400px;
     }
     
 }
@@ -68,6 +77,20 @@
     0%{transform: translateX(200px);}
     100%{transform: translateX(0)}
   }
+
+//   @media screen and (max-width:1600px) {
+//     .about-profile-image{
+//         left:200px;
+//         width: 200px;
+//     }
+// }
+
+ @media screen and (max-width:1300px) {
+
+    .about-standard-title{
+        margin-right: 60px;
+    }
+ }
 
   @media screen and (max-width:800px) {
 
