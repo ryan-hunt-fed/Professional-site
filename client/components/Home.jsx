@@ -45,6 +45,7 @@ function Home() {
                             <li>Three.js</li>
                             <li>Game Development</li>
                             <li>C#/C++ - For Game Development</li>
+                            <li>VR and AR</li>
                         </ul>
                     </div>
                     <div>
@@ -63,6 +64,7 @@ function Home() {
                             <li>Environment Modelling</li>
                             <li>3D Printing, Resin Curing and Better Painting Practices</li>
                             <li>Good Drawing Practices and Improvements</li>
+                            <li>VR Games</li>
                         </ul>
                     </div>
                 </div>
