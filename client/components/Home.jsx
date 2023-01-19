@@ -25,13 +25,34 @@ function Home() {
                     <div>
                         <p className='skills-title'>Code Skillset</p>
                         <ul>
-                            <li>React.js</li>
                             <li>HTML</li>
+                            <div className='progress-line html'>
+                                <span></span>
+                            </div>
                             <li>CSS</li>
-                            <li>SASS</li>
+                            <div className='progress-line css'>
+                                <span></span>
+                            </div>
                             <li>Javascript</li>
+                            <div className='progress-line js'>
+                                <span></span>
+                            </div>
+                            <li>React.js</li>
+                            <div className='progress-line react'>
+                                <span></span>
+                            </div>
+                            <li>SASS</li>
+                            <div className='progress-line sass'>
+                                <span></span>
+                            </div>
                             <li>Git</li>
+                            <div className='progress-line git'>
+                                <span></span>
+                            </div>
                             <li>Node.js</li>
+                            <div className='progress-line node'>
+                                <span></span>
+                            </div>
                         </ul>
                         <p className='skills-title'>Code Areas of Interest for Learning</p>
                         <ul>
@@ -52,10 +73,25 @@ function Home() {
                         <p className='skills-title'>3D & Art Skillset</p>
                         <ul>
                             <li>Modelling using Autodesk Maya</li>
+                            <div className='progress-line mod'>
+                                <span></span>
+                            </div>
                             <li>Animation using Autodesk Maya</li>
+                            <div className='progress-line ani'>
+                                <span></span>
+                            </div>
                             <li>Texturing using Autodesk Maya and Photoshop</li>
+                            <div className='progress-line tex'>
+                                <span></span>
+                            </div>
                             <li>Video Editing using Adobe After Effects</li>
+                            <div className='progress-line video'>
+                                <span></span>
+                            </div>
                             <li>Drawing using Adobe Photoshop</li>
+                            <div className='progress-line draw'>
+                                <span></span>
+                            </div>
                         </ul>
                         <p className='skills-title'>3D & Art Areas of Interest for Learning</p>
                         <ul>
@@ -72,7 +108,7 @@ function Home() {
                     </div>
                 </div>
                 <div>
-                    <p>If you are a company wanting to hire a Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UI and further learning in a range of areas, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. If you are a Game company who are currently looking for people to take internships for 3D modelling roles, please also <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635507303678/single-media-viewer/' className='links'>CV</a> avaiable for view at your interest.</p>
+                    <p>If you are a company wanting to hire a Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UI and further learning in a range of areas, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. If you are a Game company who are currently looking for people to take internships for 3D modelling roles, please also <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635513876975/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a> avaiable for view at your interest.</p>
                 </div>
 
             </div>
