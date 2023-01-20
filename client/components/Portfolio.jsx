@@ -42,10 +42,11 @@ function Portfolio() {
           <div className='web-projects grow'>
             <p className='project-title'><strong>Film data website</strong></p>
             <p>Solo Project</p>
+            <p><a href='https://film-data-2023.web.app/' className='links'>Click here to view</a></p>
             <p>
               Frontend, CSS/SASS, React (Components, Api calls to IMDB API), Javascript, CSS Animation & Keyframes.
             </p>
-            <p><a href='https://film-data-2023.web.app/' className='links'>Click here to view</a></p>
+
           </div>
         </div>
 
