@@ -86,6 +86,172 @@
     gap: 60px;
 }
 
+.progress-line{
+    position: relative;
+    height: 5px;
+    width: 100%;
+    background: #f0f0f0;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05) ;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: skillbar 1s cubic-bezier(1,0,0.5,1) forwards;
+
+}
+
+@keyframes skillbar {
+    100%{
+        transform: scaleX(1);
+    }
+    
+}
+
+.progress-line span{
+
+    height:100%;
+    width:90%;
+    background:#00C6AB;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: skillbar 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+   
+}
+
+.progress-line.html span{
+    width: 90%;
+}
+
+.progress-line.css span{
+    width: 80%;
+}
+
+.progress-line.js span{
+    width: 45%;
+}
+
+.progress-line.react span{
+    width: 60%;
+}
+
+.progress-line.sass span{
+    width: 70%;
+}
+
+.progress-line.git span{
+    width: 75%;
+}
+
+.progress-line.node span{
+    width: 45%;
+}
+
+.progress-line.mod span{
+    width: 85%;
+}
+
+.progress-line.ani span{
+    width: 70%;
+}
+
+.progress-line.tex span{
+    width: 55%;
+}
+
+.progress-line.video span{
+    width: 65%;
+}
+
+.progress-line.draw span{
+    width: 45%;
+}
+
+.progress-line span::before{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    right: 0;
+    top: -10px;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #EB9B6C;
+    opacity: 0;
+    animation: text 1s linear forwards;
+}
+
+.progress-line span::after{
+    position: absolute;
+    right: 0;
+    top: -22px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background: #EB9B6C;
+    padding: 1px 8px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: text 1s linear forwards;
+}
+
+@keyframes text {
+    100%{
+        opacity: 1;
+    }    
+}
+
+.progress-line.html span::after{
+    content: "90%";
+}
+
+.progress-line.css span::after{
+    content: "80%";
+}
+
+.progress-line.js span::after{
+    content: "45%";
+}
+
+.progress-line.react span::after{
+    content: "60%";
+}
+
+.progress-line.sass span::after{
+    content: "70%";
+}
+
+.progress-line.git span::after{
+    content: "75%";
+}
+
+.progress-line.node span::after{
+    content: "45%";
+}
+
+.progress-line.mod span::after{
+    content: "85%";
+}
+
+.progress-line.ani span::after{
+    content: "70%";
+}
+
+.progress-line.tex span::after{
+    content: "55%";
+}
+
+.progress-line.video span::after{
+    content: "65%";
+}
+
+.progress-line.draw span::after{
+    content: "45%";
+}
+
 @keyframes fadeIn {
     0%{opacity: 0;}
     100%{opacity: 1;}

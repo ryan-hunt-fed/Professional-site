@@ -15,7 +15,7 @@ function Portfolio() {
         <h2 className='portfolio-standard-header'>Web Portfolio</h2>
         <p className='portfolio-standard-text'>
           Here are examples of my work, starting with the creation of this website. Any questions about certain projects feel free to <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. To see my in progress development, feel free to check my <a href='https://github.com/ryan-hunt-fed' className='links'>GitHub</a> profile and look at my public repositories.
-          </p>
+        </p>
 
 
 
@@ -25,7 +25,7 @@ function Portfolio() {
             <p>Solo Project</p>
             <p>
               Frontend & Backend, CSS/SASS, React (Actions, Reducers, Components, Api calls to Backend), Redux, Javascript, CSS Animation & Keyframes, Sever Routes, Knex Migrations & Seeds, Database and Authentication.
-              </p>
+            </p>
           </div>
           <div className='web-projects grow'>
             <p className='project-title'>
@@ -37,13 +37,22 @@ function Portfolio() {
             </p>
             <p>
               Contributions: CSS/SASS, React Components, Javascript battle screen logic collabriation, Product owner, README documentation.
-              </p>
+            </p>
+          </div>
+          <div className='web-projects grow'>
+            <p className='project-title'><strong>Film data website</strong></p>
+            <p>Solo Project</p>
+            <p><a href='https://film-data-2023.web.app/' className='links'>Live website</a></p>
+            <p>
+              Frontend, CSS/SASS, React (Components, Api calls to IMDB API), Javascript, CSS Animation & Keyframes.
+            </p>
+
           </div>
         </div>
 
         <h2 className='portfolio-standard-header'>3D Portfolio</h2>
-        <p className='portfolio-standard-text'> 
-        For the other side of my careeer, I would like work in  3D Art profesionally in the games industry. I have been wanting to work in the games industry since a young age because of the stories and general creation of different worlds. While I have not been able to get my foot in the door with that industry to this day, I still do have my own asperations of trying to make either my own games or minatures when the time comes. So should coding become my main job, I will still continue with my 3D journey in my personal time. I have included my 3D portfolio in case any oppertunities or interships become avaliable, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a> for possible interest. I am more interested in 3D modelling than animation currently.
+        <p className='portfolio-standard-text'>
+          For the other side of my careeer, I would like work in  3D Art profesionally in the games industry. I have been wanting to work in the games industry since a young age because of the stories and general creation of different worlds. While I have not been able to get my foot in the door with that industry to this day, I still do have my own asperations of trying to make either my own games or minatures when the time comes. So should coding become my main job, I will still continue with my 3D journey in my personal time. I have included my 3D portfolio in case any oppertunities or interships become avaliable, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a> for possible interest. I am more interested in 3D modelling than animation currently.
         </p>
 
         <Fade bottom>
