@@ -146,7 +146,7 @@
 }
 
 .progress-line.node span{
-    width: 60%;
+    width: 45%;
 }
 
 .progress-line.mod span{
@@ -229,7 +229,7 @@
 }
 
 .progress-line.node span::after{
-    content: "60%";
+    content: "45%";
 }
 
 .progress-line.mod span::after{
