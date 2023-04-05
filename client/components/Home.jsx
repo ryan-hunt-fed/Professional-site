@@ -108,7 +108,7 @@ function Home() {
                     </div>
                 </div>
                 <div>
-                    <p>If you are a company wanting to hire a Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UI and further learning in a range of areas, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. If you are a Game company who are currently looking for people to take internships for 3D modelling roles, please also <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635515358809/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a> avaiable for view at your interest.</p>
+                    <p>If you are a company wanting to hire a Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UI and further learning in a range of areas, please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. If you are a Game company who are currently looking for people to take internships for 3D modelling roles, please also <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635522548497/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a> avaiable for view at your interest.</p>
                 </div>
 
             </div>
