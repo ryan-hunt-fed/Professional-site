@@ -9,6 +9,7 @@ function SingleBlog() {
     const blog = useSelector((store) => store.blog)
     console.log(blog, 'store from single current test');
     let { id } = useParams()
+    id === blog.id
     // console.log(id, 'id from single')
 
     useEffect(() => {

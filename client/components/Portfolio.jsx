@@ -48,6 +48,15 @@ function Portfolio() {
             </p>
 
           </div>
+          <div className='web-projects grow'>
+            <p className='project-title'><strong>Pokemon search and generation website</strong></p>
+            <p>Solo Project</p>
+            <p><a href='https://pokemon-gene.web.app/' className='links'>Live website</a></p>
+            <p>
+              Frontend, CSS/SASS, React (Components, Api calls to Pokemon API), Javascript.
+            </p>
+
+          </div>
         </div>
 
         <h2 className='portfolio-standard-header'>3D Portfolio</h2>
