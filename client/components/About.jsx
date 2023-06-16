@@ -35,7 +35,7 @@ function About() {
                 <li><a className='links' href='https://www.linkedin.com/in/ryanhuntfwd/'>Linkedin</a></li>
                 <li><a className='links' href='https://github.com/ryan-hunt-fed'>GitHub</a></li>
                 <li><a className='links' href='https://ryan_hunt.artstation.com/'>Artstation - 3D Portfolio</a></li>
-                <li><a className='links' href='https://www.instagram.com/cm_primus/'>Instagram</a></li>
+                <li><a className='links' href='https://www.instagram.com/cresityryan/'>Instagram</a></li>
               </ul>
             </div>
 
