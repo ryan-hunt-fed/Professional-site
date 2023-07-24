@@ -31,7 +31,7 @@ function About() {
               <h1 className='contact-title'>Contact</h1>
               <ul className='about-standard-text'>
                 <li><a className='links' href='mailto: rhuntwd@gmail.com'>Email</a></li>
-                <li><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635522548497/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a></li>
+                <li><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635534176475/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a></li>
                 <li><a className='links' href='https://www.linkedin.com/in/ryanhuntfwd/'>Linkedin</a></li>
                 <li><a className='links' href='https://github.com/ryan-hunt-fed'>GitHub</a></li>
                 <li><a className='links' href='https://ryan_hunt.artstation.com/'>Artstation - 3D Portfolio</a></li>
