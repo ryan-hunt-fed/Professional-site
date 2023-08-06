@@ -13,15 +13,11 @@ function Nav() {
           <div className='navbar-text'>
             <Link to='/Portfolio'><strong>Portfolios</strong></Link>
           </div>
-          {/* <div className='navbar-text'>
-            <Link to='/Blog'><strong>Blog</strong></Link>
-          </div> */}
+
           <div className='navbar-text'>
             <Link to='/About'><strong>About/Contact</strong></Link>
           </div>
-          {/* <div className='navbar-text'>
-            <Link to='/Three'><strong>Three.js</strong></Link>
-          </div> */}
+
           <div></div>
           <br />
 
