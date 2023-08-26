@@ -39,7 +39,7 @@ function Portfolio() {
               Contributions: CSS/SASS, React Components, Javascript battle screen logic collabriation, Product owner, README documentation.
             </p>
           </div>
-          <div className='web-projects grow'>
+          {/* <div className='web-projects grow'>
             <p className='project-title'><strong>Film data website</strong></p>
             <p>Solo Project</p>
             <p><a href='https://film-data-2023.web.app/' className='links'>Live website</a></p>
@@ -47,7 +47,7 @@ function Portfolio() {
               Frontend, CSS/SASS, React (Components, Api calls to IMDB API), Javascript, CSS Animation & Keyframes.
             </p>
 
-          </div>
+          </div> */}
           <div className='web-projects grow'>
             <p className='project-title'><strong>Pokemon search and generation website</strong></p>
             <p>Solo Project</p>
