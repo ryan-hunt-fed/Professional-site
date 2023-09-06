@@ -56,6 +56,7 @@ function Home() {
                         </ul>
                         <p className='skills-title'>Code Areas of Interest for Learning</p>
                         <ul>
+                            <li>UX Design / Product Design</li>
                             <li>UI - for both code and design</li>
                             <li>Web Design</li>
                             <li>Bootstrap</li>
