@@ -16,7 +16,7 @@ function About() {
         <div className='about-content'>
           <div className='about-text-container'>
             <div className='about-standard-title'>
-              <h3>Overview of Myself</h3>
+              <h3>About Me</h3>
               <p className='about-standard-text'>Hello there, I&#39;m a New Zealand citizen trying to make my way in the world. A seeker of knowledge for improving the various skills I&#39;m interested in, a respectful and kind person. What I&#39;m wanting to do is to find what I enjoy and then reach a sense of acomplishment with it, if given the chance to. I&#39;m a graduate of Dev Academy for Web Development and a graduate of Yoobee College of Creative Innovation for 3D Modelling & Animation. Currently I&#39;m at the stage of my life where I want to move onto what&#39;s next, so I&#39;m trying to make that change. </p>
               <p className='about-standard-text'>Currently I work as a part time Short Course Tutor at Yoobee College of Creative Innovation in Wellington, mainly during the school holidays but I am still on the hunt for my main job. I have currently been through a rough spot and have been trying to land a job wheather I have the proper skills or to be open to training so any sorts of oppertunities I would be open to at this stage.</p>
               <h3>Career Interests</h3>
@@ -28,15 +28,6 @@ function About() {
               <p className='about-standard-text'>In my personal life, I like to play video games, get together with friends to either play Magic the Gathering or Dungeons and Dragons, drawing (Both digitally and physically), miniature painting, the previously mentioned 3D modeling and animation which for the moment is working on my personal IP to make into a game or minature line, catching up on the various media I&#39;m interested in and all the while trying to maintain a healthy wellbeing and finding other activites to add to my list of interests.</p>
               <p className='about-standard-text'>Things I would like to get into at some stage would be learning piano, getting my guitar out again, video editing, photography/astrophotography, astronomy, writing for storytelling, baking, rock climbing, previously mentioned 3D printing and archery.</p>
 
-              <h1 className='contact-title'>Contact Information</h1>
-              <ul className='about-standard-text'>
-                <li><a className='links' href='mailto: rhuntwd@gmail.com'>Email</a></li>
-                <li><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635539119660/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a></li>
-                <li><a className='links' href='https://www.linkedin.com/in/ryanhuntfwd/'>Linkedin</a></li>
-                <li><a className='links' href='https://github.com/ryan-hunt-fed'>GitHub</a></li>
-                <li><a className='links' href='https://ryan_hunt.artstation.com/'>Artstation - 3D Portfolio</a></li>
-                <li><a className='links' href='https://www.instagram.com/cresityryan/'>Instagram</a></li>
-              </ul>
             </div>
 
           </div>

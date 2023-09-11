@@ -118,7 +118,17 @@ function Home() {
                     </ul>
                 </div>
                 <div>
+                    <h1 className='contact-title'>Contact</h1>
                     <p>If you are a company wanting to hire a Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UX and further learning in a range of areas, or a Game company who are currently looking for people to take internships for 3D modelling roles, or if you have any role that you think would fit me or would be open to giving me an oppertunity please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635539119660/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a> avaiable for viewing at your personal interest.</p>
+                    <br></br>
+                    <ul className='about-standard-text'>
+                        <li><a className='links' href='mailto: rhuntwd@gmail.com'>Email</a></li>
+                        <li><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635539119660/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a></li>
+                        <li><a className='links' href='https://www.linkedin.com/in/ryanhuntfwd/'>Linkedin</a></li>
+                        <li><a className='links' href='https://github.com/ryan-hunt-fed'>GitHub</a></li>
+                        <li><a className='links' href='https://ryan_hunt.artstation.com/'>Artstation - 3D Portfolio</a></li>
+                        <li><a className='links' href='https://www.instagram.com/cresityryan/'>Instagram</a></li>
+                    </ul>
                 </div>
 
             </div>
