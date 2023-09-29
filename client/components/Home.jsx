@@ -54,7 +54,7 @@ function Home() {
                                 <span></span>
                             </div>
                         </ul>
-                        <p className='skills-title'>Code Areas of Interest for Learning</p>
+                        <p className='skills-title'>Code & Web Areas of Interest for Learning</p>
                         <ul>
                             <li>UX Design / Product Design</li>
                             <li>UI - for both code and design</li>
