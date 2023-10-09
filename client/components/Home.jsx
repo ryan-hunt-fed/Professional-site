@@ -115,7 +115,6 @@ function Home() {
                         <li>Short Course Tutor at Yoobee College of Creative Innovation - Current role</li>
                         <li>ICT Support Technician at Aiscorp</li>
                         <li>ICT Support Technician at OnestopIT</li>
-                        {/* <li>Nightfill at Countdown</li> */}
                     </ul>
                 </div>
                 <div>
