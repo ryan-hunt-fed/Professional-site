@@ -93,7 +93,7 @@ function Home() {
                             <div className='progress-line draw'>
                                 <span></span>
                             </div>
-                            <li>Minature Painting and Crafting</li>
+                            <li>Miniature Painting and Crafting</li>
                             <div className='progress-line paint'>
                                 <span></span>
                             </div>
