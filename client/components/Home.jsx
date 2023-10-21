@@ -111,7 +111,7 @@ function Home() {
                     </div>
                 </div>
                 <div>
-                    <h3>Previous Job Role Titles</h3>
+                    <h3>Previous Job Experience</h3>
                     <ul>
                         <li>Short Course Tutor at Yoobee College of Creative Innovation - Current role</li>
                         <li>ICT Support Technician at Aiscorp</li>
