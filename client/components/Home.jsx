@@ -142,7 +142,7 @@ function Home() {
                     <div className='scroller-container snap' >
                         <div className='scroller-item-1 grow' >
                             <Link to='/Portfolio'>
-                                <h3 className='scroller-text'>Portfolio</h3>
+                                <h3 className='scroller-text'>Portfolios</h3>
                             </Link>
                         </div>
                         {/* <div className='scroller-item-2 grow'>

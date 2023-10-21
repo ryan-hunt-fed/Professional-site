@@ -1,10 +1,15 @@
 
 .scroller-container{
-    display: grid;
-    gap: 8px;
-    grid-auto-flow: column;
-    overscroll-behavior-inline: contain;
-    margin: 20px 100px;
+    // display: grid;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+    gap: 150px;
+    // grid-auto-flow: column;
+    padding: 0px;
+    // overscroll-behavior-inline: contain; 
+    margin: 5px 5px;
     animation: fadeIn 2s, moveInLeft 1s ;
   }
 
@@ -19,9 +24,9 @@
 }
   
 .scroller-text{
-  padding: 10px;
+  // padding: 10px;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   font-family: 'Nova Round', cursive;
   color:white;
   transition-duration: 550ms;
@@ -33,7 +38,7 @@
 }
   .scroller-item-1{
     
-    padding: 100px 80px;
+    padding: 1px 70px;
     margin: 5px;
     border-radius: 5px;
     background-color: #2d9cbd;
@@ -61,7 +66,7 @@
  
   .scroller-item-5{
     
-    padding: 100px 80px;
+    padding: 1px 70px;
     border-radius: 5px;
     background-color: #2d9cbd;
     background-size: cover;
