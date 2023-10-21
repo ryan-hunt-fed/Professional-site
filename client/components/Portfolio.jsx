@@ -43,7 +43,7 @@ function Portfolio() {
             <p className='project-title'><strong>Film data website</strong></p>
             <p>Solo Project</p>
             {/* <p><a href='https://film-data-2023.web.app/' className='links'>Live website</a></p> */}
-            <p>No longer able to view due to changes with IMDB API, can no longer get data from API</p>
+            <p>No longer able to view due to changes with IMDB API, can no longer get data from API.</p>
             <p>
               Frontend, CSS/SASS, React (Components, Api calls to IMDB API), Javascript, CSS Animation & Keyframes.
             </p>

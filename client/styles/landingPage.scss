@@ -2,7 +2,7 @@
     // font-size: 48px;
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: 70px;
     margin-bottom: 0px;
     animation: fadeIn 2s, moveInLeft 1s ;
@@ -263,6 +263,15 @@
 
 .progress-line.paint span::after{
     content: "55%";
+}
+
+.contact-links{
+    display: flex;
+    // text-decoration: none;
+    list-style-type: none;
+    gap:80px;
+    flex-direction: row;
+    margin-top: 30px;
 }
 
 @keyframes fadeIn {
