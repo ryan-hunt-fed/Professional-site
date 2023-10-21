@@ -24,7 +24,7 @@ function Home() {
                 <div className='intro-skillsets'>
                     <div>
                         <p className='skills-title'>Code Skillset</p>
-                        <ul>
+                        <ul className='artskills-margin'>
                             <li>HTML</li>
                             <div className='progress-line html'>
                                 <span></span>
@@ -49,10 +49,10 @@ function Home() {
                             <div className='progress-line git'>
                                 <span></span>
                             </div>
-                            <li>Node.js</li>
+                            {/* <li>Node.js</li>
                             <div className='progress-line node'>
                                 <span></span>
-                            </div>
+                            </div> */}
                         </ul>
                         <p className='skills-title'>Code & Web Areas of Interest for Learning</p>
                         <ul>
@@ -71,8 +71,8 @@ function Home() {
                         </ul>
                     </div>
                     <div>
-                        <p className='skills-title'>3D & Art Skillset</p>
-                        <ul>
+                        <p className='skills-title '>3D & Art Skillset</p>
+                        <ul className='artskills-margin'>
                             <li>Modelling using Autodesk Maya</li>
                             <div className='progress-line mod'>
                                 <span></span>
@@ -91,6 +91,10 @@ function Home() {
                             </div>
                             <li>Drawing using Adobe Photoshop</li>
                             <div className='progress-line draw'>
+                                <span></span>
+                            </div>
+                            <li>Minature Painting and Crafting</li>
+                            <div className='progress-line paint'>
                                 <span></span>
                             </div>
                         </ul>
@@ -121,7 +125,7 @@ function Home() {
                 <div>
                     <h1 className='contact-title'>Contact</h1>
                     <p>If you are a company wanting to hire a Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UX and further learning in a range of areas, or a Game company who are currently looking for people to take internships for 3D modelling roles, or if you have any role that you think would fit me or would be open to giving me an oppertunity please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635545822366/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a> avaiable for viewing at your personal interest.</p>
-                    <br></br>
+                    {/* <br></br> */}
                     <ul className='about-standard-text'>
                         <li><a className='links' href='mailto: rhuntwd@gmail.com'>Email</a></li>
                         <li><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635545822366/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a></li>

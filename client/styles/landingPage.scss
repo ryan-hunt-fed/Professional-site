@@ -45,6 +45,10 @@
     font-family:  'Nova Round', cursive;
 }
 
+.artskills-margin{
+    margin-bottom: 40px;
+}
+
 // .home-logo{
 //     width: 160px;
 //     margin-right: 160px;
@@ -169,6 +173,10 @@
     width: 45%;
 }
 
+.progress-line.paint span{
+    width: 55%;
+}
+
 .progress-line span::before{
     position: absolute;
     content: "";
@@ -250,6 +258,10 @@
 
 .progress-line.draw span::after{
     content: "45%";
+}
+
+.progress-line.paint span::after{
+    content: "55%";
 }
 
 @keyframes fadeIn {
