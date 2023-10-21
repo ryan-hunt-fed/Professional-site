@@ -22,6 +22,7 @@
 .header-title{
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
 }
 
 
@@ -81,7 +82,7 @@
     }
     
     .grow-icon:hover { 
-    transform: scale(1.4); 
+    transform: scale(1.2); 
     }
 
 .intro-skillsets{

@@ -4,10 +4,11 @@
     // align-content: center;
     justify-content: space-between;
     padding: 20px 90px;
-    background-color: #2d9cbd;
-    opacity: 75%;
-    transition: opacity .2s ease-in-out;
+    // background-color: #2d9cbd; 
+    // opacity: 75%;
+    // transition: opacity .2s ease-in-out;
     animation: topToBottom 1s;
+    margin-top: 25px;
 
    
   
@@ -25,6 +26,9 @@
     color: white;
     transition-duration: 550ms;
     transition-property: color;
+    padding:15px;
+    background-color: #2d9cbd;
+    border-radius: 5%;
     }
 
     & a:hover{
@@ -37,10 +41,18 @@
     100%{transform: translateY(0)}
   }
 
-  .navbar:hover{
-    opacity: 100%;
-    transition: opacity .2s ease-in-out;
-  }
+  // .navbar:hover{
+  //   opacity: 100%;
+  //   transition: opacity .2s ease-in-out;
+  // }
+
+  .grow-menu { 
+    transition: all .3s ease-in-out; 
+    }
+    
+    .grow-menu:hover { 
+    transform: scale(1.1); 
+    }
 
  
   
@@ -48,21 +60,27 @@
     display: flex;
     // align-content: center;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 20px;
     margin-left: 570px;
+    // padding:15px;
+    // background-color: #2d9cbd;
+    // border-radius: 5%;
   }
   
   .icons{
     width: 30px;
+    padding:15px;
+    background-color: #2d9cbd;
+    border-radius: 5%;
   }
 
-  .grow-icon { 
-    transition: all .3s ease-in-out; 
-    }
+  // .grow-icon { 
+  //   transition: all .3s ease-in-out; 
+  //   }
     
-    .grow-icon:hover { 
-    transform: scale(1.5); 
-    }
+  //   .grow-icon:hover { 
+  //   transform: scale(0.2); 
+  //   }
 
 
     @media screen and (max-width:1800px) {

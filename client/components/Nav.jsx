@@ -7,14 +7,14 @@ function Nav() {
 
       <div className='navbar'>
         <div className='navbar-menu'>
-          <div className='navbar-text'>
+          <div className='navbar-text grow-menu'>
             <Link to='/'><strong>Home</strong></Link>
           </div>
-          <div className='navbar-text'>
+          <div className='navbar-text grow-menu'>
             <Link to='/Portfolio'><strong>Portfolios</strong></Link>
           </div>
 
-          <div className='navbar-text'>
+          <div className='navbar-text grow-menu'>
             <Link to='/About'><strong>About</strong></Link>
           </div>
 
