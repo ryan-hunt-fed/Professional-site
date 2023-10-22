@@ -133,12 +133,12 @@ function Home() {
                     <p>If you are a company wanting to hire a Graduate Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UX and further learning in a range of areas, or a Game company who are currently looking for people to take internships for 3D modelling roles, or if you have any role that you think would fit me or would be open to giving me an oppertunity please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635545822366/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a> avaiable for viewing at your personal interest.</p>
                     {/* <br></br> */}
                     <ul className='contact-links'>
-                        <li><a className='contact-single-links grow' href='mailto: rhuntwd@gmail.com'>Email</a></li>
-                        <li><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635545822366/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='contact-single-links grow'>CV</a></li>
-                        <li><a className='contact-single-links grow' href='https://www.linkedin.com/in/ryanhuntfwd/'>Linkedin</a></li>
-                        <li><a className='contact-single-links grow' href='https://github.com/ryan-hunt-fed'>GitHub</a></li>
-                        <li><a className='contact-single-links grow' href='https://ryan_hunt.artstation.com/'>3D Portfolio</a></li>
-                        <li><a className='contact-single-links grow' href='https://www.instagram.com/cresityryan/'>Instagram</a></li>
+                        <li className='grow-link'><a className='contact-single-links ' href='mailto: rhuntwd@gmail.com'>Email</a></li>
+                        <li className='grow-link'><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635545822366/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='contact-single-links '>CV</a></li>
+                        <li className='grow-link'><a className='contact-single-links ' href='https://www.linkedin.com/in/ryanhuntfwd/'>Linkedin</a></li>
+                        <li className='grow-link'><a className='contact-single-links ' href='https://github.com/ryan-hunt-fed'>GitHub</a></li>
+                        <li className='grow-link'><a className='contact-single-links ' href='https://ryan_hunt.artstation.com/'>3D Portfolio</a></li>
+                        <li className='grow-link'><a className='contact-single-links ' href='https://www.instagram.com/cresityryan/'>Instagram</a></li>
                     </ul>
                 </div>
 
