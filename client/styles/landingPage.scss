@@ -269,11 +269,35 @@
     display: flex;
     // text-decoration: none;
     list-style-type: none;
-    gap:80px;
+    gap:40px;
     flex-direction: row;
     margin-top: 30px;
     flex-wrap: wrap;
 }
+
+.contact-single-links{
+    transition-duration: 550ms;
+    transition-property: color;
+    font-size: 18px;
+    font-family: 'Nova Round', cursive;
+    // font: 18px 'Quicksand';
+    background-color: #2d9cbd;
+    padding: 15px;
+    border-radius: 5%;
+  }
+  
+  .contact-single-links:hover{
+    color: #EB9B6C;
+    background-color: #00AE95;
+  }
+
+  .grow-link { 
+    transition: all .3s ease-in-out; 
+    }
+    
+    .grow-link:hover { 
+    transform: scale(1.1); 
+    }
 
 @keyframes fadeIn {
     0%{opacity: 0;}
