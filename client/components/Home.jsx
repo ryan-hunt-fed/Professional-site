@@ -129,7 +129,7 @@ function Home() {
                     </ul>
                 </div>
                 <div>
-                    <h3>Career areas of interest</h3>
+                    <h3>Career Areas of Interest</h3>
                     <p>These are a list of areas I would be interested in looking at making a move to, some areas I have studied and some I would need further training or on the job experience.</p>
                     <ul>
                         <li>3D Game Artist</li>
@@ -140,6 +140,7 @@ function Home() {
                         <li>Graphic Designer</li>
                         <li>Areas where I can create</li>
                         <li>Tutoring</li>
+                        <li>3D printing space</li>
                         <li>More ideas to come when I find out about any other oppertunities.</li>
                     </ul>
                 </div>
