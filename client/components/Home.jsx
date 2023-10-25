@@ -129,6 +129,21 @@ function Home() {
                     </ul>
                 </div>
                 <div>
+                    <h3>Career areas of interest</h3>
+                    <p>These are a list of areas I would be interested in looking at making a move to, some areas I have studied and some I would need further training or on the job experience.</p>
+                    <ul>
+                        <li>3D Game Artist</li>
+                        <li>UX Deisgner</li>
+                        <li>Frontend Web Developer</li>
+                        <li>Interior Designer</li>
+                        <li>Motion Designer</li>
+                        <li>Graphic Designer</li>
+                        <li>Areas where I can create</li>
+                        <li>Tutoring</li>
+                        <li>More ideas to come when I find out about any other oppertunities.</li>
+                    </ul>
+                </div>
+                <div>
                     <h1 className='contact-title'>Contact</h1>
                     <p>If you are a company wanting to hire a Graduate Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UX and further learning in a range of areas, or a Game company who are currently looking for people to take internships for 3D modelling roles, or if you have any role that you think would fit me or would be open to giving me an oppertunity please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635545822366/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a> avaiable for viewing at your personal interest.</p>
                     {/* <br></br> */}
