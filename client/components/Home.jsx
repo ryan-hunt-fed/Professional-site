@@ -141,7 +141,8 @@ function Home() {
                         <li>Areas where I can create</li>
                         <li>Tutoring</li>
                         <li>3D printing space</li>
-                        <li>More ideas to come when I find out about any other oppertunities.</li>
+                        <li>Digital Marketing</li>
+                        <li>More ideas to come when I find out about any other oppertunities that give me a drive to excel in.</li>
                     </ul>
                 </div>
                 <div>
