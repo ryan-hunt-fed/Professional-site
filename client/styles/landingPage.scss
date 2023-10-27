@@ -291,6 +291,13 @@
     background-color: #00AE95;
   }
 
+  .ideas-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:25px;
+  }
+
   .grow-link { 
     transition: all .3s ease-in-out; 
     }

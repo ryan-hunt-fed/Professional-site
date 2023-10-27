@@ -131,27 +131,39 @@ function Home() {
                 <div>
                     <h3>Career Areas of Interest</h3>
                     <p>These are a list of areas I would be interested in looking at making a move to, some areas I have studied and some I would need further training or on the job experience.</p>
-                    <ul>
+                    <p>Areas with some experience and/or training.</p>
+                    <ul className='ideas-list'>
                         <li>3D Game Artist</li>
-                        <li>UX Deisgner</li>
+                        <li>3D Environment Artist</li>
                         <li>Frontend Web Developer</li>
+                        <li>Tutoring</li>
+                        <li>Video Editor</li>
+                    </ul>
+                    <p>Areas interetsed in but would need some more training and/or on the job experirence.</p>
+                    <ul className='ideas-list'>
+                        <li>UX Deisgner</li>
+                        <li>3D printing</li>
+                        <li>Webflow Designer</li>
+                        <li>Photo Editor</li>
+                        <li>Motion Capture</li>
+                        <li>Game Developer</li>
+                        <li>VR</li>
                         <li>Interior Designer</li>
                         <li>Motion Designer</li>
                         <li>Graphic Designer</li>
-                        <li>Areas where I can create</li>
-                        <li>Tutoring</li>
-                        <li>3D printing space</li>
                         <li>Digital Marketing</li>
-                        <li>More ideas to come when I find out about any other oppertunities that give me a drive to excel in.</li>
+                        <li>Baking/Cooking</li>
+                        <li>Sound Mixer</li>
+                        <li>More possibilities if I find out about any other oppertunities that give me a drive to excel in.</li>
                     </ul>
                 </div>
                 <div>
                     <h1 className='contact-title'>Contact</h1>
-                    <p>If you are a company wanting to hire a Graduate Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UX and further learning in a range of areas, or a Game company who are currently looking for people to take internships for 3D modelling roles, or if you have any role that you think would fit me or would be open to giving me an oppertunity please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635545822366/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a> avaiable for viewing at your personal interest.</p>
+                    <p>If you are a company wanting to hire a Graduate Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UX and further learning in a range of areas, or a Game company who are currently looking for people to take internships for 3D modelling roles, or if you have any role that you think would fit me or would be open to giving me an oppertunity please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635546741305/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='links'>CV</a> avaiable for viewing at your personal interest.</p>
                     {/* <br></br> */}
                     <ul className='contact-links'>
                         <li className='grow-link'><a className='contact-single-links ' href='mailto: rhuntwd@gmail.com'>Email</a></li>
-                        <li className='grow-link'><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635545822366/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='contact-single-links '>CV</a></li>
+                        <li className='grow-link'><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635546741305/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' className='contact-single-links '>CV</a></li>
                         <li className='grow-link'><a className='contact-single-links ' href='https://www.linkedin.com/in/ryanhuntfwd/'>Linkedin</a></li>
                         <li className='grow-link'><a className='contact-single-links ' href='https://github.com/ryan-hunt-fed'>GitHub</a></li>
                         <li className='grow-link'><a className='contact-single-links ' href='https://ryan_hunt.artstation.com/'>3D Portfolio</a></li>
