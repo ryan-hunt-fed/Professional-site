@@ -16,7 +16,7 @@ function Home() {
                 <h2 className='icon grow-icon'>RH</h2>
             </div>
             <div className='intro-text'>
-                <h2>Frontend Web Developer || 3D Artist</h2>
+                <h2>Frontend Web Developer || 3D Artist || Tutor</h2>
 
                 <p>
                     Hi there, I&#39;m based in Wellington, New Zealand. I would consider myself a relaible, honest and hardworking person. I have an interest in design elements, for instance with 3D art, UX Design and Webflow, as I want my career to have a creative side to it. As for the code side of it, I would be wanting to put my skills towards a Frontend Dev role, or an area that after some more training I would be able to do, for example an area involing Three.js.
