@@ -14,7 +14,7 @@ function Portfolio() {
 
         <h2 className='portfolio-standard-header'>Web Portfolio</h2>
         <p className='portfolio-standard-text'>
-          Here are examples of my work, starting with the creation of this website. Any questions about certain projects feel free to <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. To see my in progress development, feel free to check my <a href='https://github.com/ryan-hunt-fed' className='links'>GitHub</a> profile and look at my public repositories.
+          Here are examples of my work, starting with the creation of this website. Any questions about certain projects feel free to <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. To see my in progress development, feel free to check my <a href='https://github.com/ryan-hunt-fed' className='links' target="_blank" rel="noreferrer">GitHub</a> profile and look at my public repositories.
         </p>
 
 
@@ -33,7 +33,7 @@ function Portfolio() {
             </p>
             <img src="./images/PokeHuman-small.png" alt="Pokehuman"></img>
             <p>
-              <a href='https://www.youtube.com/watch?v=McOADYs6mEM' className='links'>Youtube Demo</a>
+              <a href='https://www.youtube.com/watch?v=McOADYs6mEM' className='links' target="_blank" rel="noreferrer">Youtube Demo</a>
             </p>
             <p>
               Contributions: CSS/SASS, React Components, Javascript battle screen logic collabriation, Product owner, README documentation.
@@ -42,7 +42,7 @@ function Portfolio() {
           <div className='web-projects grow'>
             <p className='project-title'><strong>Film data website</strong></p>
             <p>Solo Project</p>
-            {/* <p><a href='https://film-data-2023.web.app/' className='links'>Live website</a></p> */}
+            {/* <p><a href='https://film-data-2023.web.app/' className='links' target="_blank" rel="noreferrer">Live website</a></p> */}
             <p>No longer able to view due to changes with IMDB API, can no longer get data from API.</p>
             <p>
               Frontend, CSS/SASS, React (Components, Api calls to IMDB API), Javascript, CSS Animation & Keyframes.
@@ -52,7 +52,7 @@ function Portfolio() {
           <div className='web-projects grow'>
             <p className='project-title'><strong>Pokemon search and generation website</strong></p>
             <p>Solo Project</p>
-            <p><a href='https://pokemon-gene.web.app/' className='links'>Live website</a></p>
+            <p><a href='https://pokemon-gene.web.app/' className='links' target="_blank" rel="noreferrer">Live website</a></p>
             <p>
               Frontend, CSS/SASS, React (Components, Api calls to Pokemon API), Javascript.
             </p>
@@ -71,19 +71,19 @@ function Portfolio() {
             <p className='project-title'><strong>Featured 3D Project</strong></p>
             <img src='https://cdna.artstation.com/p/assets/images/images/043/741/370/large/ryan-hunt-001.jpg?1638150461' alt='featured' />
             <br />
-            <a href='https://ryan_hunt.artstation.com/projects/9NmoWW?album_id=778023' className='links'>Featured Project</a>
+            <a href='https://ryan_hunt.artstation.com/projects/9NmoWW?album_id=778023' className='links' target="_blank" rel="noreferrer">Featured Project</a>
           </div>
           <div className='art-projects grow'>
             <p className='project-title'><strong>3D Modelling</strong></p>
             <img src='https://cdna.artstation.com/p/assets/images/images/021/026/626/large/ryan-hunt-fort-scene-27-redone-fort-scene-camerashape1-beauty-0001.jpg?1570088551' alt='featured' />
             <br />
-            <a href='https://ryan_hunt.artstation.com/albums/778023' className='links'>Model Album</a>
+            <a href='https://ryan_hunt.artstation.com/albums/778023' className='links' target="_blank" rel="noreferrer">Model Album</a>
           </div>
           <div className='art-projects grow'>
             <p className='project-title'><strong>3D Animation</strong></p>
             <img src='https://cdna.artstation.com/p/assets/images/images/009/370/510/large/ryan-hunt-render-13.jpg?1518596283' alt='featured' />
             <br />
-            <a href='https://ryan_hunt.artstation.com/albums/778025' className='links'>Animation Album</a>
+            <a href='https://ryan_hunt.artstation.com/albums/778025' className='links' target="_blank" rel="noreferrer">Animation Album</a>
           </div>
         </div>
         {/* </Fade> */}
