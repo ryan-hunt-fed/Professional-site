@@ -21,16 +21,16 @@ function Portfolio() {
 
         <div className='web-project-container'>
           <div className='web-projects grow'>
-            <p className='project-title'><strong>Portfolio website</strong></p>
+            <h3 className='project-title'><strong>Portfolio website</strong></h3>
             <p>Solo Project</p>
             <p>
               Frontend & Backend, CSS/SASS, React (Actions, Reducers, Components, Api calls to Backend), Redux, Javascript, CSS Animation & Keyframes, Sever Routes, Knex Migrations & Seeds, Database and Authentication.
             </p>
           </div>
           <div className='web-projects grow'>
-            <p className='project-title'>
+            <h3 className='project-title'>
               <strong>Dev Academy Final Group Project</strong>
-            </p>
+            </h3>
             <img src="./images/PokeHuman-small.png" alt="Pokehuman"></img>
             <p>
               <a href='https://www.youtube.com/watch?v=McOADYs6mEM' className='links' target="_blank" rel="noreferrer">Youtube Demo</a>
@@ -40,7 +40,7 @@ function Portfolio() {
             </p>
           </div>
           <div className='web-projects grow'>
-            <p className='project-title'><strong>Film data website</strong></p>
+            <h3 className='project-title'><strong>Film data website</strong></h3>
             <p>Solo Project</p>
             {/* <p><a href='https://film-data-2023.web.app/' className='links' target="_blank" rel="noreferrer">Live website</a></p> */}
             <p>No longer able to view due to changes with IMDB API, can no longer get data from API.</p>
@@ -50,7 +50,7 @@ function Portfolio() {
 
           </div>
           <div className='web-projects grow'>
-            <p className='project-title'><strong>Pokemon search and generation website</strong></p>
+            <h3 className='project-title'><strong>Pokemon search and generation website</strong></h3>
             <p>Solo Project</p>
             <p><a href='https://pokemon-gene.web.app/' className='links' target="_blank" rel="noreferrer">Live website</a></p>
             <p>
@@ -68,19 +68,19 @@ function Portfolio() {
         {/* <Fade bottom> */}
         <div className='art-project-container'>
           <div className='art-projects grow'>
-            <p className='project-title'><strong>Featured 3D Project</strong></p>
+            <h3 className='project-title'><strong>Featured 3D Project</strong></h3>
             <img src='https://cdna.artstation.com/p/assets/images/images/043/741/370/large/ryan-hunt-001.jpg?1638150461' alt='featured' />
             <br />
             <a href='https://ryan_hunt.artstation.com/projects/9NmoWW?album_id=778023' className='links' target="_blank" rel="noreferrer">Featured Project</a>
           </div>
           <div className='art-projects grow'>
-            <p className='project-title'><strong>3D Modelling</strong></p>
+            <h3 className='project-title'><strong>3D Modelling</strong></h3>
             <img src='https://cdna.artstation.com/p/assets/images/images/021/026/626/large/ryan-hunt-fort-scene-27-redone-fort-scene-camerashape1-beauty-0001.jpg?1570088551' alt='featured' />
             <br />
             <a href='https://ryan_hunt.artstation.com/albums/778023' className='links' target="_blank" rel="noreferrer">Model Album</a>
           </div>
           <div className='art-projects grow'>
-            <p className='project-title'><strong>3D Animation</strong></p>
+            <h3 className='project-title'><strong>3D Animation</strong></h3>
             <img src='https://cdna.artstation.com/p/assets/images/images/009/370/510/large/ryan-hunt-render-13.jpg?1518596283' alt='featured' />
             <br />
             <a href='https://ryan_hunt.artstation.com/albums/778025' className='links' target="_blank" rel="noreferrer">Animation Album</a>
