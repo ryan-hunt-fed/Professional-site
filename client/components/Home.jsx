@@ -142,7 +142,7 @@ function Home() {
                     <p>Areas interetsed in but would need some more training and/or on the job experirence.</p>
                     <ul className='ideas-list'>
                         <li>UX Deisgner</li>
-                        <li>3D Printing</li>
+                        <li>3D Printer</li>
                         <li>Unreal Engine Developer/Designer</li>
                         <li>Webflow Designer</li>
                         <li>Photo Editor</li>
