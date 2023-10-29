@@ -143,6 +143,7 @@ function Home() {
                     <ul className='ideas-list'>
                         <li>UX Deisgner</li>
                         <li>3D Printing</li>
+                        <li>Unreal Engine Developer/Designer</li>
                         <li>Webflow Designer</li>
                         <li>Photo Editor</li>
                         <li>Motion Capture</li>
@@ -154,6 +155,7 @@ function Home() {
                         <li>Digital Marketing</li>
                         <li>Baking/Cooking</li>
                         <li>Sound Mixer</li>
+                        <li>Landscape Architect</li>
                         <li>More possibilities if I find out about any other oppertunities that give me a drive to excel in.</li>
                     </ul>
                 </div>
