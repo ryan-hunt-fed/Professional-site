@@ -130,8 +130,8 @@ function Home() {
                 </div>
                 <div>
                     <h3>Career Areas of Interest</h3>
-                    <p>These are a list of areas I would be interested in looking at making a move to, some areas I have studied and some I would need further training or on the job experience.</p>
-                    <p>Areas with some experience and/or training.</p>
+                    <p>These are a list of areas I would be interested in looking at making a move to as I am always open to new oppertunities and seeing if they would lead to an area I would like to be in, some areas I have studied and have previously stated I would be interested in and some I would need further training or on the job experience.</p>
+                    <p>Areas I have some experience with and/or training.</p>
                     <ul className='ideas-list'>
                         <li>3D Game Artist</li>
                         <li>3D Environment Artist</li>
@@ -139,7 +139,7 @@ function Home() {
                         <li>Tutoring</li>
                         <li>Video Editor</li>
                     </ul>
-                    <p>Areas interetsed in but would need some more training and/or on the job experirence.</p>
+                    <p>Areas I am interetsed in but would need some more training and/or on the job experirence.</p>
                     <ul className='ideas-list'>
                         <li>UX Deisgner</li>
                         <li>3D Printer</li>
@@ -158,12 +158,13 @@ function Home() {
                         <li>Baking/Cooking</li>
                         <li>Sound Mixer</li>
                         <li>Landscape Architect</li>
+                        <li>Furniture Restoration/Furinture Flipper</li>
                         <li>More possibilities if I find out about any other oppertunities that give me a drive to excel in.</li>
                     </ul>
                 </div>
                 <div>
                     <h2 className='contact-title'>Contact</h2>
-                    <p>If you are a company wanting to hire a Graduate Frontend Web Developer, who is very eager to have a mix of design and development tasks, a large interest in UX and further learning in a range of areas, or a Game company who are currently looking for people to take internships for 3D modelling roles, or if you have any role that you think would fit me or would be open to giving me an oppertunity please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635546741305/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' target="_blank" rel="noreferrer" className='links'>CV</a> avaiable for viewing at your personal interest.</p>
+                    <p>If you are a company wanting to hire a Graduate Frontend Web Developer, a Game company who are currently looking for people to take internships for 3D modelling roles, or if you have any role that you think would fit me or would be open to giving me an oppertunity please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635546741305/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' target="_blank" rel="noreferrer" className='links'>CV</a> avaiable for viewing at your personal interest.</p>
                     {/* <br></br> */}
                     <ul className='contact-links'>
                         <li className='grow-link'><a className='contact-single-links ' href='mailto: rhuntwd@gmail.com'>Email</a></li>
