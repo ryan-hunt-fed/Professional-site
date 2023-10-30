@@ -123,9 +123,9 @@ function Home() {
                     <h3>Previous Job Experience</h3>
                     <ul>
                         <li>Short Course Tutor at Yoobee College of Creative Innovation - Current Part Time role</li>
-                        <li>HQ Support at NZ Electoral Commission - Temporary role</li>
-                        <li>ICT Support Technician at Aiscorp - Part Time role</li>
-                        <li>ICT Support Technician at OnestopIT - Part Time role</li>
+                        <li>HQ Support at NZ Electoral Commission - Temporary role - 3 weeks</li>
+                        <li>ICT Support Technician at Aiscorp - Part Time role - 4 years</li>
+                        <li>ICT Support Technician at OnestopIT - Part Time role - 3 years, 1 Work Experience year</li>
                     </ul>
                 </div>
                 <div>
