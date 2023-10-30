@@ -145,6 +145,8 @@ function Home() {
                         <li>3D Printer</li>
                         <li>Unreal Engine Developer/Designer</li>
                         <li>Webflow Designer</li>
+                        <li>CMS Management</li>
+                        <li>SalesForce</li>
                         <li>Photo Editor/Photo Basher</li>
                         <li>Motion Capture</li>
                         <li>Game Developer</li>
