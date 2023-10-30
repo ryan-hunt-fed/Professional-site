@@ -5,7 +5,7 @@ function Nav() {
   return (
     <>
 
-      <div className='navbar'>
+      <div className='navbar' id='home-top'>
         <div className='navbar-menu'>
           <div className='navbar-text grow-menu'>
             <Link to='/'><strong>Home</strong></Link>
