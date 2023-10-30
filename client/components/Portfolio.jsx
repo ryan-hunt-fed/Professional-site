@@ -90,7 +90,7 @@ function Portfolio() {
       </div>
       <div className='return-arrow-container'>
         <div className='return-arrow grow-menu'>
-          <p><strong><a href='#home-top' className='return-arrow-inside'>&#8593;</a></strong></p>
+          <p><strong><a href='#home-top' className='return-arrow-inside'>&#11014;</a></strong></p>
         </div>
       </div>
     </>
