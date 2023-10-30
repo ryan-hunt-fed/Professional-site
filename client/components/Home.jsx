@@ -72,7 +72,7 @@ function Home() {
                             <li>Three.js</li>
                             <li>Game Development - I.E C# or C++</li>
                             <li>VR and AR</li>
-                            <li>Ruby on Rails</li>
+                            <li>Vue</li>
                         </ul>
                     </div>
                     <div>
