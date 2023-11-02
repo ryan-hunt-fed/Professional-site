@@ -164,11 +164,11 @@ function Home() {
                 </div>
                 <div>
                     <h2 className='contact-title'>Contact</h2>
-                    <p>If you are a company wanting to hire a Graduate Frontend Web Developer, a Game company who are currently looking for people to take internships for 3D modelling roles, or if you have any role that you think would fit me or would be open to giving me an oppertunity please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635548044048/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' target="_blank" rel="noreferrer" className='links'>CV</a> avaiable for viewing at your personal interest.</p>
+                    <p>If you are a company wanting to hire a Graduate Frontend Web Developer, a Game company who are currently looking for people to take internships for 3D modelling roles, or if you have any role that you think would fit me or would be open to giving me an oppertunity please <a href='mailto: rhuntwd@gmail.com' className='links'>contact me</a>. I additionally have my <a href='https://rhuntcv.web.app/' target="_blank" rel="noreferrer" className='links'>CV</a> avaiable for viewing on my CV website at your personal interest.</p>
                     {/* <br></br> */}
                     <ul className='contact-links'>
                         <li className='grow-link'><a className='contact-single-links ' href='mailto: rhuntwd@gmail.com'>Email</a></li>
-                        <li className='grow-link'><a href='https://www.linkedin.com/in/ryanhuntfwd/overlay/1635548044048/single-media-viewer/?profileId=ACoAABKA5PgBGTaKr2IB7emEU4tJxtFXJRMEf2k' target="_blank" rel="noreferrer" className='contact-single-links '>CV</a></li>
+                        <li className='grow-link'><a href='https://rhuntcv.web.app/' target="_blank" rel="noreferrer" className='contact-single-links '>Online CV</a></li>
                         <li className='grow-link'><a className='contact-single-links ' href='https://www.linkedin.com/in/ryanhuntfwd/' target="_blank" rel="noreferrer">Linkedin</a></li>
                         <li className='grow-link'><a className='contact-single-links ' href='https://github.com/ryan-hunt-fed' target="_blank" rel="noreferrer">GitHub</a></li>
                         <li className='grow-link'><a className='contact-single-links ' href='https://ryan_hunt.artstation.com/' target="_blank" rel="noreferrer">3D Portfolio</a></li>
