@@ -58,6 +58,15 @@ function Portfolio() {
             </p>
 
           </div>
+          <div className='web-projects grow'>
+            <h3 className='project-title'><strong>Online CV</strong></h3>
+            <p>Solo Project</p>
+            <p><a href='https://rhuntcv.web.app/' className='links' target="_blank" rel="noreferrer">Live website</a></p>
+            <p>
+              Frontend, CSS/SASS, React (Components).
+            </p>
+
+          </div>
         </div>
 
         <h2 className='portfolio-standard-header'>3D Portfolio</h2>
