@@ -159,6 +159,7 @@ function Home() {
                         <li>Sound Mixer</li>
                         <li>Landscape Architect</li>
                         <li>Furniture Restoration/Furniture Flipper</li>
+                        <li>Event Manager</li>
                         <li>More possibilities if I find out about any other oppertunities that give me a drive to excel in.</li>
                     </ul>
                 </div>
